@@ -1,0 +1,81 @@
+1. intro
+	1. mez nerkayacnel, kurseri npatak@ inchi khasnen kurseric heto, xia dzri kurser@, inch petqa anenq ardzyunqi hasnelu hamar
+	2. incha cragravorum@, cragravorman lezun u inchi hmar 
+	3. xi henc python, vortexa ogtagorcvum python@ u inch haytni ynkerutyunnerum
+	4. inch tesaki lezua python@, interpretatori u compeliatori tarberutyun@ tipizacian incha 
+	5. practic ashxatanq, install python tpel hello world, mi 2 ban sarqel pythonov titizanalu hamar
+
+=================================================================================================================================================
+								Types
+
+
+2. Types
+	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
+	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox
+	3.(String,Integer,Float) - intro
+	4.Inch en default funkcianer en u inchi hamar en
+	5.Integeri,stringi u floati default funkcianer@
+	6.berel orinak type() funkciayov
+
+3.List u Taple
+	.....
+
+
+4.Dict u Set
+	.....
+
+5.File
+
+==================================================================================================================================================
+								Expressions
+
+
+6.(if ,else, elif,) - orinak karanq mi toxov grneq karch linelu depqum
+
+7.Ciklner - while u for (karch for)
+
+8.Funckcianer,funkciai argumentner@, return
+
+9.Rekursiv funkcianer()
+
+10.tetev nerkayacnenq incha lambda,u funkciayi parametrer(default, args*, kwargs**)
+
+
+===================================================================================================================================================
+								Modulner
+
+
+
+
+11.inch en modulner@,modulneri karevorutyun@ pythoni hamar
+
+
+
+
+
+===================================================================================================================================================
+								Exceptions
+
+12.inch en exceptionner@ u vortex en ogtagorcvum(default exceptionner)
+
+
+===================================================================================================================================================
+								Advanced Pyton
+
+13.Tesaneliutyan makardakner@
+14.Generatorner
+15.Funkcional cragravorman hamar gorciqner(map,reduce,filter....)
+
+
+===================================================================================================================================================
+								OOP ?
+
+
+
+
+
+
+
+	
+
+
