@@ -12,17 +12,27 @@
 2. Types
 	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
 	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox
-	3.(String,Integer,Float) - intro
-	4.Inch en default funkcianer en u inchi hamar en
-	5.Integeri,stringi u floati default funkcianer@
+	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
+	4.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
+	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
 	6.berel orinak type() funkciayov
 
 3.List u Taple
-	.....
-
+	1.uzum enq grenq app vor kazmuma ashakertneri annunner@.
+	2.skzbum cuyc ktanq dranq talov popxakannertin,heto nuyn@ bacatrelu enq vor aveli hesta listov u senc iravichaknerum aveli haramara list ogtagorcel.
+	3.bacatrenq vonc en pahvum tvyalner@ listum u cuyc tanq vonc dranq vekalenq(orinak uzum enq erku hogu jnjenq heto avelacnenq).	
+	4.berenq tetev orinakner te inch karanq pahenq listum u mi qani gorcoxutyunner(length,listeri gumarel,hanel.listerum list pahel u tenc baner).	
+	5.hachax kirarvox methodner(tetev orinakner) - append(),pop(),sort(),reverse()
+	6.tuple - asenq te inchna listi u tupli tarberutyunner@,berenq orinakner te te vonc karanq default funkcianerov(list(),tuple()) mi type poxenq miusov
+	
 
 4.Dict u Set
-	.....
+	1.unenq xndir vor mer amen mi ashakerti hamar petqa lracnenq iranc tvyalner@(skzbum kasenq tox iranq mtacen,heto nor kbacatrenq).
+	2.kberenq orinakner dict-ov,u vonc avelacnenq tvyalner kam jnjenq(naxord typeri orinaknerov)
+	3.nerkayacnenq incha set@.
+	4.set-i methodner@(union).
+	5.kberenq orinak txeqi u axjikneri hamar set-um,heto union kanenq et set-er@ u kxosanq ardyunqneri masin.
+	6.verjum random funkciayov k@ntrenq mi hogu u hajord dasin inq@ petqa kbacatri ira tnayinner@ bolorin.
 
 5.File
 
