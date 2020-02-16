@@ -35,6 +35,25 @@
 	6.verjum random funkciayov k@ntrenq mi hogu u hajord dasin inq@ petqa kbacatri ira tnayinner@ bolorin.
 
 5.File
+	1.asenq vor pythonum faileri het ashxatum enq vonc vorpes obyektneri het(vonc vor mnacac typeri het).
+	2.karanq tetev bacatrenq funkcianer@ u iranc parametrer@ vor karanq mi qani gorcoxutyunner anenq faileri het.
+	3.
+		3.1 arajin parametr@ et faili pathna minche faili anun@ @st moduli(aysinq et path@ petqa tanq @st mer moduli pathi vortex vor ogtagorcum enq open() funkcian)
+		3.2 erkrord parametr@ talis enq nra hamar vor asenq te inhc gorcoxutyunner enq uzum anenq faili het(et paraametr@ partadir chi u ete chtanq mer 
+		funckian kashxati default r(read) parametrov)
+		3.3 'r' - read uxxaki bacum enq fail@ kardalu hamar (default)(ete fail@ chka,exceptiona talis)
+
+			"a" - append - bacum enq fail@ nra mej ban avelacnelu hamar,aysinqn menq arden exac texti verjic sksac arden karanqavelacnenq(ete fail@ chka stexcuma nor fail)
+			
+			"w" - write - eli bacum enq fail@ nra mej ban avelacnelu hamar,bayc amen angam menq jnjum enq failum exac text@ u avelacnum e miayn mer verjin text@(ete fail@ chka stexcuma nor fail)
+			
+			"x" - create - stexcel nor file (ete fail@ ka exceptiona tali)
+			
+			stex "t" u "b" parametrer kan bayc chem uzum dran vra xorananq."t" default sovorakan text veradarcnelu hamara isk "b" byte koda veradarcnum aran decode anelu.
+	
+	4.parameter@ nerkayacneluc heto cuyc tanq sovorakan operacianer faileri het ashxatelu hamar(kardal faili mej exac text@,nor text grel faileri mej,stexcel failer,....).
+
+	5.karanq tetev asenq `with` instrukciayi masin,faileri het ashxatelu hamar.
 
 ==================================================================================================================================================
 								Expressions
