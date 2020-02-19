@@ -15,13 +15,14 @@
 
 2. Types
 	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
+
 		1.1 skzbum inch vor sovorakan orinak ` name="Hovlo"
 		1.2 ka @ndunvac erku tesak popoxakan haytararelu hamar.arajin@ kochvuma CAMEL CASE (userName),isk erkrord@ UNDERSCORE NATION (user_name).stex uxaki mi qani barov kxosanq sra masin
 		1.3 popoxakannerum chenq kara tanq annuner voronq pythonum unen hatuk nshanakutyunner `(True,False,if,else ...)
 		1.4 python@ dinamik tipizacvac lezua,aysinqn mez petq chi naxoroq haytararel te inch type petq e iran veragrenq.(stex mi qani orinakner urish lezuneric)
 			orinak erb menq grecink vor user="Hovlo" pyhton@ avtomat haskacav vor menq uzum enq string pahenq mer popoxakanum,nuyn@ karanq anenq urish type het,
 			orinak int ` user_age=25(eqa txayes ay axper)
-	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox
+	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
 		2.1 stex arden naxordneri orinakov tetev cuyc tvac klinenq mi qanis@.prost@ karanq slide unenanq vor iranc tanq heto nayelu hamar 
 	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
 		3.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej.(orinakner)
@@ -39,7 +40,7 @@
 	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
 	6.berel orinak type() funkciayov
 
-3.List u Taple
+3.List u Tuple
 	1.uzum enq grenq app vor kazmuma ashakertneri annunner@.
 	2.skzbum cuyc ktanq dranq talov popxakannertin,heto nuyn@ bacatrelu enq vor aveli hesta listov u senc iravichaknerum aveli haramara list ogtagorcel.
 	3.bacatrenq vonc en pahvum tvyalner@ listum u cuyc tanq vonc dranq vekalenq(orinak uzum enq erku hogu jnjenq heto avelacnenq).	
