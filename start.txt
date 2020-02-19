@@ -11,13 +11,13 @@
 
 2. Types
 	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
-	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox
+	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
 	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
 	4.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
 	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
 	6.berel orinak type() funkciayov
 
-3.List u Taple
+3.List u Tuple
 	1.uzum enq grenq app vor kazmuma ashakertneri annunner@.
 	2.skzbum cuyc ktanq dranq talov popxakannertin,heto nuyn@ bacatrelu enq vor aveli hesta listov u senc iravichaknerum aveli haramara list ogtagorcel.
 	3.bacatrenq vonc en pahvum tvyalner@ listum u cuyc tanq vonc dranq vekalenq(orinak uzum enq erku hogu jnjenq heto avelacnenq).	
