@@ -4,6 +4,10 @@
 	3. xi henc python, vortexa ogtagorcvum python@ u inch haytni ynkerutyunnerum
 	4. inch tesaki lezua python@, interpretatori u compeliatori tarberutyun@ tipizacian incha 
 	5. practic ashxatanq, install python tpel hello world, mi 2 ban sarqel pythonov titizanalu hamar
+	
+												Tnayin
+	1.stex karanq asenq vortexic enq menq informacia stanum,mi qani link tanq kam tekuz menak w3schools.(chgitem arji videourok asenq nayen? xosqi barisov)u asenq vor google anen misht
+	2.karanq grqer xorhurd tanq ete haves unenan tox or@ mi qani ej kardan(prost@ documentacian mi qich chora grac im jogelov)
 
 =================================================================================================================================================
 								Types
@@ -11,9 +15,27 @@
 
 2. Types
 	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
+		1.1 skzbum inch vor sovorakan orinak ` name="Hovlo"
+		1.2 ka @ndunvac erku tesak popoxakan haytararelu hamar.arajin@ kochvuma CAMEL CASE (userName),isk erkrord@ UNDERSCORE NATION (user_name).stex uxaki mi qani barov kxosanq sra masin
+		1.3 popoxakannerum chenq kara tanq annuner voronq pythonum unen hatuk nshanakutyunner `(True,False,if,else ...)
+		1.4 python@ dinamik tipizacvac lezua,aysinqn mez petq chi naxoroq haytararel te inch type petq e iran veragrenq.(stex mi qani orinakner urish lezuneric)
+			orinak erb menq grecink vor user="Hovlo" pyhton@ avtomat haskacav vor menq uzum enq string pahenq mer popoxakanum,nuyn@ karanq anenq urish type het,
+			orinak int ` user_age=25(eqa txayes ay axper)
 	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox
+		2.1 stex arden naxordneri orinakov tetev cuyc tvac klinenq mi qanis@.prost@ karanq slide unenanq vor iranc tanq heto nayelu hamar 
 	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
+		3.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej.(orinakner)
+		3.2 karanq arden print anenq sax u iranqel gren mer het.
+		3.3 ete uzum enq toxadarc ogdagorcenq petqa text@ vercnenq 3 hat chakerti mej(eakan chi 1 te 2)
+		3.4 string format.  orinak name = "Hovlo"            kam orinak senc print(f."Hello,{name}")(3.6 ic heto menak)
+							print("Hello, {}".format(name))
+			%s - string
+			
+			%d - int(decimal - float@ kloracnuma)
+			
+		3.5 nuyn@ karanq asenq Integeri u Floiati hamar(Floati hamar mi qich aranzin kxosanq).meke mi qani orinakner (gumarum,hanum,random,meci u poqri nshanner u tenc inch hishenq)
 	4.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
+		4.1
 	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
 	6.berel orinak type() funkciayov
 
