@@ -23,7 +23,7 @@
 			orinak erb menq grecink vor user="Hovlo" pyhton@ avtomat haskacav vor menq uzum enq string pahenq mer popoxakanum,nuyn@ karanq anenq urish type het,
 			orinak int ` user_age=25(eqa txayes ay axper)
 	2.(String,Integer,Float,List,Tuple,Dict,Set,File) - slide `popoxvox u chpopoxvox https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
-		2.1 stex arden naxordneri orinakov tetev cuyc tvac klinenq mi qanis@.prost@ karanq slide unenanq vor iranc tanq heto nayelu hamar 
+		2.1 stex arden naxordneri orinakov tetev cuyc tvac klinenq mi qanis@.prost@ karanq slide unenanq vor iranc tanq heto nayelu hamar 	
 	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
 		3.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej.(orinakner)
 		3.2 karanq arden print anenq sax u iranqel gren mer het.
@@ -36,9 +36,50 @@
 			
 		3.5 nuyn@ karanq asenq Integeri u Floiati hamar(Floati hamar mi qich aranzin kxosanq).meke mi qani orinakner (gumarum,hanum,random,meci u poqri nshanner u tenc inch hishenq)
 	4.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
-		4.1
+		4.1 String  - 
+					  str('text') - funkcian.
+					  'string'.lower () mer tvac text@ sax sarcuma poqratar.
+					  'string'.upper () mer tvac text@ sax sarquma mecatar.
+					  'string'.replace('replaced_string','new_string',count_of_replaced_string) poxuma mer textum exac bar@(kam symbol@) mer uzacov.
+					  'string#number#two'.split('separator') mer tvac text@ bajanuma @st mer tvac symboli u veradarcnuma list(stex tetev asac klinenq listeri masin)
+					  'string'.find('r') ete gtnuma veradarcnuma mer uzac texti index@,isk ete chi gtnum veradarcnuma -1
+	    4.2 Integer - 
+					  x + y
+					  x - y
+					  x / y
+					  x ** y
+					  x // y kloracnuma depi nerqev
+					  -x sarquma bacasakan
+					  +x sarquma drakan
+					  Int('5') - funkcian
+					  
+	   4.3 Float - sra masin indz tvuma shat ban chkael xosalu prost@ mi qani orinak karanq cuyc tanq.
+					#uxaki integer@ sarquma float
+					print(float(10))
+
+					# type@ mnuma eli float
+					print(float(11.22))
+
+					# string@ poxuma floata sarqum
+					print(float("-13.33"))
+
+					# spacer@ hasvi chen arnvum
+					print(float("     -24.45\n"))
+
+					# errora tali ete sxal parametr enq tali
+					print(float("abc"))
+
 	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
+		5.1 es indz tvuma arden arecinq
 	6.berel orinak type() funkciayov
+		6.1 String - type('55string')
+					 type(str(1))
+			Integer - type(1)
+					  type(int('22'))
+		    
+			Float - type(55.77)
+					type(float(22))
+					type(float('22'))
 
 3.List u Tuple
 	1.uzum enq grenq app vor kazmuma ashakertneri annunner@.
@@ -61,7 +102,7 @@
 	1.asenq vor pythonum faileri het ashxatum enq vonc vorpes obyektneri het(vonc vor mnacac typeri het).
 	2.karanq tetev bacatrenq funkcianer@ u iranc parametrer@ vor karanq mi qani gorcoxutyunner anenq faileri het.
 	3.
-		3.1 arajin parametr@ et faili pathna minche faili anun@ @st moduli(aysinq et path@ petqa tanq @st mer moduli pathi vortex vor ogtagorcum enq open() funkcian)
+		3.1 arajin parametr@ et faili pathna minchev faili anun@ @st moduli(aysinq et path@ petqa tanq @st mer moduli pathi vortex vor ogtagorcum enq open() funkcian)
 		3.2 erkrord parametr@ talis enq nra hamar vor asenq te inhc gorcoxutyunner enq uzum anenq faili het(et paraametr@ partadir chi u ete chtanq mer 
 		funckian kashxati default r(read) parametrov)
 		3.3 'r' - read uxxaki bacum enq fail@ kardalu hamar (default)(ete fail@ chka,exceptiona talis)
