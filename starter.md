@@ -62,15 +62,11 @@
 					  -x sarquma bacasakan
 					  +x sarquma drakan
 					  Int('5') - funkcian
-					  <,>, === # stex kasenq vor veradarcnuma chista te sxal True kam False - i mijocov
-
-	    4.3 Boolean
-	        linuma @ndamen@ erku tesak True u False.iranq  havasar en 1 - i u 0 - i u et aravaca uxaki nra hamar vor haskanali lini
-
+	   
 					  HISHENQ VOR CUYC TANQ STRINGI BAZMAPATKUM@
 
 					  
-	    4.4 Float - sra masin indz tvuma shat ban chkael xosalu prost@ mi qani orinak karanq cuyc tanq.
+	   4.3 Float - sra masin indz tvuma shat ban chkael xosalu prost@ mi qani orinak karanq cuyc tanq.
 					#uxaki integer@ sarquma float
 					print(float(10))
 
@@ -88,7 +84,7 @@
 
 					#float@ vor bajanum es integeri floata misht veradarcnum
 					print(10.2 / 2)
-	    4.5 round(5.6, digits) tetev nerkayacnenq
+	4.4 round(5.6, digits) tetev nerkayacnenq
 		
 
 	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
@@ -162,101 +158,34 @@
 	1.unenq xndir vor mer amen mi ashakerti hamar petqa lracnenq iranc tvyalner@(skzbum kasenq tox iranq mtacen,heto nor kbacatrenq).
 		1.1 arden mer ancac typerov vonc et xndir@ lucenq ?  orinak karanq unenanq listum useri tvyalner@ ['"jorj","bush", "57"]. stex nax mez metqa angir hishenq te mer useri konkret vor tvyal@ vor indexova pahac.
 			isk inch klini ete orinak user@ shat tvyalner unena? dra hamar mez aveli harmar klini unenal Dictionery.
-		1.2 Dict@ haytararelu hamar menq karanq skzbi hamar anenq da dict() funkciayov.orinak x = dict() kam  x = {}
-
-        1.3 stex karanq henc dict@ hayatrarelu jamanak grenq ira valuener@ x = {'name' : 'jorj','lastname':'bush','age':57}
-		    kam skzbum hayatrarenq datark dict@ u heto avelacnenq dra mej.orinak x["name"] = "jorj".ete uzenanq update anenq mer tvyal@ karanq uxaki grenq x["name"] = "valod".
-		    heto ete uzenanq print anenq mez @ndamen@ petqa asernq print(x["name"]) kam ete uzum enq avelacnenq uxaki grum enq mer nor key@ x["country"] = 'USA'
-
-        1.4 Dict@ i tarberutyun listi chuni fixvac hertakanutyun, kara amen angam tarber hertakanutyamp tpi u dra hamar petq chi huys dnel hertakanutyan vra.
-
-        1.5 Dict@ mutable type-a
-            orinak x = {"name" : "jorj"}
-                   y = x
-                   x["name"] = 'valod'
-
-                   stex mer y nuynpes kpoxi ira arjeq@
-        1.6 metodner
-          get() - hishumenq vor karanq sovorakan qarakusi pakagcerov vekalenq, bayc dra poxaren ka aveli kayf dzev vekalelu mer valuen, et get() methodna,
-                    vorin ttalis enq mer key@, vor@ chgtnelu jamanak mez veradarcnum a None ayl voch te error.menq karanq nayev tanq iran mer deafaul value-n u erb vor
-                    chgtni mer key-@ uremn return kani iran
-
-          pop() - jnjuma @st keyi ur veradarcnum iran
-
-          keys() - veradarcnuma mer dicti keyer@ listum
-
-          values() - veradarcnuma mer dicti valuner@ listum
-
-          items() - veradarcnuma list vori mej mer key:valuner@ pahvum en arandzin tuplneri mej
-
-          update() - erku dict irar miacnelu hamar petqa uxaki 1 in dictic haytararel update() method@ iran vorpes parametr talov erkrord dict@
-
-          1.7 listi u dicti hamadrutyun
-               voncvor listum ,menq karanaq mer dictum pahenq tarber typer.bayc aveli hachax kirarvox depqerum menq unenum enq lister vorum pahum enq dicter
-               vorovhetev tenc mez aveli harmara linum ashxatel
-               orinak users_list[{'name':'jorj','age':23},{'name':'james','age':45}].
-               es depqum mer listi 0 index-i name@ stanalu hamar karanq senc anenq users_list[0]['name']
-
-	2.nerkayacnenq incha set@.
-	    2.1 set@ dicti nmana uxaki nra mej valuner@ chen pahvum @ keyeri, u nra mej exac valuner@ misht unique en. ira arandznahatkutyunneric mek@ ena vor shat araga
-	    get anum ira valuener@.shat nmana matematikakan hamaxumb/bazmutyn@ u karanq gtnenq dranc hatum@ miavorum@.
-	        orinak senc set karanq unenanq x = {1,2,"hello"},ete stex avelacnenq verjum es valuneric inch vor mekic meka inq@ et value-n chi avelanalu
-        2.2 methodner(sax orinakner@ cutc enq talu KLOR orinaknerov)
-
-            union() - erku seter@ irara miacnum u jnjuma krknvox arjeqner@
-
-            difference() - cuyca tali te vor andamner@ arajinum kan isk erkrordum che
-
-            intersection() - cuyca talis en andamner@ voronq 2 texum kan
-
-            add() - avelacnuma item set-um
-
-            remove() - jnjuma item-@ setic
-
-    3.frozenset@ nuyn setna uxaki popoxeli chi u mej@ ban avelacnel u jnjel chi linum
-    
-	4.verjum random funkciayov k@ntrenq mi hogu u hajord dasin inq@ petqa bacatri ira tnayinner@ bolorin.
-	5. orinak cuyc tanq vor unique list stanalu hamar karox enq sarqel set heto noric list
+		1.2 Dict@ 
+	2.kberenq orinakner dict-ov,u vonc avelacnenq tvyalner kam jnjenq(naxord typeri orinaknerov).
+	3.nerkayacnenq incha set@.
+	4.set-i methodner@(union).
+	5.kberenq orinak txeqi u axjikneri hamar set-um,heto union kanenq et set-er@ u kxosanq ardyunqneri masin.
+	6.verjum random funkciayov k@ntrenq mi hogu u hajord dasin inq@ petqa kbacatri ira tnayinner@ bolorin.
 
 5.File
 	1.asenq vor pythonum faileri het ashxatum enq vonc vorpes obyektneri het(vonc vor mnacac typeri het).
-	2.
-		2.1 arajin parametrov talis enq te vortexa gtnvum file-@ (file-i path@)
-		2.2 file-i het karanq tarber gorcoxutyunner anenq, orinak kardanq, grenq kam exac file-i mej nor baner avelacnenq
-		2.3 'r' - read uxxaki bacum enq fail@ kardalu hamar (default)(ete fail@ chka,exceptiona talis)
+	2.karanq tetev bacatrenq funkcianer@ u iranc parametrer@ vor karanq mi qani gorcoxutyunner anenq faileri het.
+	3.
+		3.1 arajin parametr@ et faili pathna minchev faili anun@ @st moduli(aysinq et path@ petqa tanq @st mer moduli pathi vortex vor ogtagorcum enq open() funkcian)
+		3.2 erkrord parametr@ talis enq nra hamar vor asenq te inhc gorcoxutyunner enq uzum anenq faili het(et paraametr@ partadir chi u ete chtanq mer 
+		funckian kashxati default r(read) parametrov)
+		3.3 'r' - read uxxaki bacum enq fail@ kardalu hamar (default)(ete fail@ chka,exceptiona talis)
 
-			"a" - append - bacum enq fail@ nra mej ban avelacnelu hamar,aysinqn menq arden exac texti verjic sksac arden karanq avelacnenq(ete fail@ chka stexcuma nor fail)
+			"a" - append - bacum enq fail@ nra mej ban avelacnelu hamar,aysinqn menq arden exac texti verjic sksac arden karanqavelacnenq(ete fail@ chka stexcuma nor fail)
 			
 			"w" - write - eli bacum enq fail@ nra mej ban avelacnelu hamar,bayc amen angam menq jnjum enq failum exac text@ u avelacnum e miayn mer verjin text@(ete fail@ chka stexcuma nor fail)
 			
 			"x" - create - stexcel nor file (ete fail@ ka exceptiona tali)
 			
 			stex "t" u "b" parametrer kan bayc chem uzum dran vra xorananq."t" default sovorakan text veradarcnelu hamara isk "b" byte koda veradarcnum aran decode anelu.
+	
+	4.parameter@ nerkayacneluc heto cuyc tanq sovorakan operacianer faileri het ashxatelu hamar(kardal faili mej exac text@,nor text grel faileri mej,stexcel failer,....).
 
-        2.4 fail@ baceluc heto petqa misht paqenq iran close methodov
+	5.karanq tetev asenq `with` instrukciayi masin,faileri het ashxatelu hamar.
 
-	3.parameter@ nerkayacneluc heto cuyc tanq sovorakan operacianer faileri het ashxatelu hamar(kardal faili mej exac text@,nor text grel faileri mej,stexcel failer,....).
-        3.1 kardalu methodner
-            read() - veradarcnuma fail@ amboxjutyamb vorpes string
-
-            readlines() - veradarcnuma faili bolor toxer@ listov
-
-            readline() - veradarcnuma amen mi tox@ stringov
-        3.2 grelu methodner
-            write() - ete bacaca `w` parametrov jnjuma sax text@ u norna avelacnum,isk ete `a` avelacnuma faili verjum
-
-            writelines() - karanq avelacnenq listov nor tox
-	4.karanq tetev asenq `with` instrukciayi masin,faileri het ashxatelu hamar.
-
-        4.1 qani vor karanq iravichakner unenanq vor fail@ kardalu jamanak error lini u fail@ chascni paki, dra hamar  failer@ karanq bacenq nayev
-           `with` - i mijocov, vor@ avtomat close kani mer fail@, voric heto karanq iran miangamic veragrenq popoxakani mek instrukciayov.
-            orinak with open('file.txt','r') as file:
-                        pront(file.read())
-             stex tetev bacatrenq bloki gaxapar@ vorov voroshvuma kod@ bloki meja mtnum te che
-     *.? inputov mi qani orinak cuyc tanq
-
-     5.Stayin
-     unenanq shat failer  u inputi mijocov, harcnenq vor fail@ petqa baci.erb vor user@ kgri faili anun@ petqa uxaki print anenq mer fail mej exac text@
 ==================================================================================================================================================
 								Expressions
 
@@ -300,7 +229,6 @@
 
 ===================================================================================================================================================
 								OOP ?
-
 
 
 
