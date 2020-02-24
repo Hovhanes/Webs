@@ -102,7 +102,41 @@
 			Float - type(55.77)
 					type(float(22))
 					type(float('22'))
-
+					
+																Tnayin
+		
+		1. @ndhanur mi qani harcer
+			1.1 incha nshanakum «chpopoxvox» u «popoxvox» terminner@, u voronq en dranq pythonum.
+			1.2 incha nshanakum «последовательность»(hajordakanutyun ha erevi) termin@.
+			1.3 - ? es lutcic em vekale chgitem arji te che.incha nshanakum Polimorfizm, u xia inq@ shat karevor
+		
+		2.String
+			2.1 unenq sovoroakan popoxakan Integer typov `orinak x = 5 u entadrenq popoxakan s = 'Lesson number '.petqa miacnenq irar et erku popoxakanner@
+				u statnanq senc ardyunq 'Lesson number 5'
+			
+			2.2 unenq erku baric kazmvac text `orinak "Hello world".petqa ogtagorcelov stringi methodner@ stananq texti hakarak dzev@ "world Hello"
+			
+			2.3 entadrenq unenq mi hat senc text s1 = 'dzer tvac tnayin@ shat djvar er, menq chenq kara lucenq sa ' u s2 = '1+1=2'. petqa nax irar miacnenq u 
+				stananq es text@ `dzer tvac tnayin@ shat hest er, menq karanq lucenq sa one+one=two`
+				
+		3.Integer u Float
+			3.1 inch kveradarcnen hetevyal operatorner@ Pythonum?
+				2 * (3 + 4)
+				2 * 3 + 4
+				2 + 3 * 4
+			3.2  inch type kveradacni hetevyal artahaytutyun@
+				1 + 2.0 +3
+				
+			3.3 vonc karanq kloracnenq hetevyal tiv@ 2.5 vor stananq 3
+			
+			3.4 unenq sovorakan tiv `orinak 97.petqa tpenq arandiz 7@ heto 9@ ogtagorcelov matematikakan operatorner
+			
+			3.5 unenq sovorakan tiv `orinak 123.petqa tpenq bolor tveri gumar@ u stananq 6
+			
+		inputov stanyin ?
+				
+					
+************************************************************************************************************************************************************
 3.List u Tuple
 	1.bacatrenq vonc python kod@ grenq faileri mej u vonc run anenq mer arden modul@.
 		1.1 bacatrumenq input@ - input@ funkciaya vor mez hnaravorutyuna talis stanal tvyalner mer ogtateric.asenq vor erb kod@ hasnuma et inputin,
