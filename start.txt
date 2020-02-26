@@ -133,7 +133,7 @@
 			
 			3.5 unenq sovorakan tiv `orinak 123.petqa tpenq bolor tveri gumar@ u stananq 6
 			
-		inputov stanyin ?
+		
 				
 					
 ************************************************************************************************************************************************************
@@ -178,7 +178,7 @@
 			append() - entadrenq mer mot nor ashakerta eke, uzumenq avelacnenq  iran mer mot. dra hamar ogtagorcum enq apend methodov vor@ misht mer listi verjuma avelacnum.
 			pop() - kam orinak ete uzum enq pakasacnenq mer verjin ekac userin ogtagorcum enq pop, vor@ jnjuma listi verji arjeq@ u veradarcnum ayn.
 			insert( 1, ''user') - ete uzum enq konkret indexov avelacnenq.
-			remove(''value') - jnjum enq @st mer value - i
+			remove('value') - jnjum enq @st mer value - i
 			reverce() - kstananq mer list@ hakarak uxxutyamb
 			sort(reverse=True) - sortavorel list@ @st achman, isk ete reverse havasara True @st nvazman
 		
@@ -191,6 +191,44 @@
 	3.tuple - asenq te inchna listi u tupli tarberutyunner@,berenq orinakner te te vonc karanq default funkcianerov(list(),tuple()) mi type poxenq miusov
 		3.1 listi meji value - n karanq poxenq, isk tuplin@ che.
 		3.2 tupl@ karanq ogdagorcenq en depqum ete mez petqa hamozvac linenq vor hetagayum sxalmamb chenq karox poxel ayn.
+		
+																	Tnayin
+		1.List
+			
+			1.1 unenq list(users_list = ['Hovo', 'Vazgen', 'Jarviz']).inch kstananq ete print anenq users_list[3] u inchi.
+			
+			1.2 unenq senc erku hat list
+					x = [1,2,3,4,5,6]
+					z = [7,8,9,10,11]
+				peta imananq iranc @ndhanur erkarutyun@(@st valuneri)
+			
+			1.2 nsheq 4 methodner voronq anmijapes poxum en listi obyekt@
+			
+			1.3 stexcel python file(modul) first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac qanak@ bareri qanak@` label u vor@
+				knduni Integer typov arjeq.erkrord input@ unena senc 'nsheq bar@ kam text@ vor@ uzum eq bazmapatkel'.ardyunqum stananq mer nshac bar@ kam text@
+				aynqan angam vorqan vor nshel enq arajin inputum
+			
+			1.4 steqcel python file users.py anunov vori mej klini input senc 'avelacne nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
+			'dzer verjin avelacrac useri annun e `useri anun@`'
+			'mer avelacrac usernern en ['user1','user2'......]'
+			
+			1.5 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
+				uzac userin voric heto peta jnjenq et userin mer listic u senc text cuyc tanq 
+				'duq jnjel eq `jnjvac useri anun@ MECATAR`-in'
+				'userner@ voronq mnacel en'.
+				tetev hushum(amen angam fil@ run aneluc menq karananq jnjenq @ndamen@ mek useri.)
+			
+		2.Tuple
+			
+			2.1 unenq senc tuple days = ('Erk','Ereq',['Choreq'],'Hing','Urb','Shb','Kr'). vonc karanq vekalenq 'Choreq' valun.
+			2.2 porcel anel naxord tnayini 1.5-rd varjutyun@ ,bayc listi poxaren unenanq tuple
+			
+			
+		@ndhanur hushumner(hishenq vor default funkcianerov menq karanq inch vor mi type poxarinenq miusi)
+		
+		
+		
+**************************************************************************************************************************************************************************		
 
 4.Dict u Set(frozenset)
 	1.unenq xndir vor mer amen mi ashakerti hamar petqa lracnenq iranc tvyalner@(skzbum kasenq tox iranq mtacen,heto nor kbacatrenq).
