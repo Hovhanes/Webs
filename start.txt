@@ -233,27 +233,31 @@
 				peta imananq iranc @ndhanur erkarutyun@
 			
 			1.3 nsheq 4 methodner voronq anmijapes poxum en listi obyekt@
-			
-			1.4 stexcel python file first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac bareri qanak@` label u vor@
+
+            1.4 unenanq userneri list users_list = ['Hovo', 'Vazgen', 'Jarviz'].
+                vonc karanq 1-in indexum gtnvox anun@ poxenq cankacac ayl anunov
+
+			1.5 stexcel python file first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac bareri qanak@` label u vor@
 				knduni Integer typov arjeq.erkrord input@ unena senc 'nsheq bar@ kam text@ vor@ uzum eq bazmapatkel'.ardyunqum stananq mer nshac bar@ kam text@
 				aynqan angam vorqan vor nshel enq arajin inputum
 			
-			1.5 steqcel python file users.py anunov vori mej klini input senc 'avelacnel nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
+			1.6 stexcel python file users.py anunov vori mej klini input senc 'avelacnel nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
 			'dzer verjin avelacrac useri annun e `useri anun@`'
 			'mer avelacrac usernern en ['user1','user2'......]'
 			
-			1.6 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
+			1.7 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
 				uzac userin voric heto peta jnjenq et userin mer listic u senc text cuyc tanq 
 				'duq jnjel eq `jnjvac useri anun@ MECATAR`-in'
 				'userner@ voronq mnacel en'.
 				tetev hushum(amen angam fil@ run aneluc menq karananq jnjenq @ndamen@ mek useri)
-			
+
 		2.Tuple
 			
 			2.1 unenq senc tuple days = ('Erk','Ereq','Choreq','Hing','Urb',['Shb']). vonc karanq avelacnenq 'kiraki' 'Shb' - i het nuyn listum .
-			2.2 porcel anel naxord tnayini 1.5-rd varjutyun@ ,bayc listi poxaren unenanq tuple
+			2.2 porcel anel naxord tnayini 1.6-rd varjutyun@ ,bayc listi poxaren unenanq tuple
+
 		    @ndhanur hushumner(hishenq vor default funkcianerov menq karanq inch vor mi type poxarinenq miusi)
-		
+
 **************************************************************************************************************************************************************************
 
 4.Dict u Set(frozenset)
@@ -327,7 +331,7 @@
 				'professions':['robot', 'dancer']
 			}
 			
-			greq vonc karanq stananq `robot`-@,u poxenq `dancer`-@
+			greq vonc karanq tpenq `robot`-@,u poxenq `dancer`-@
 		
 		
 		1.2 unenq orinak senc dict
@@ -338,7 +342,8 @@
 				"pear": 3
 			}
 			
-			hashvel bolor mrgeri gumar@.inch type kstananq verjum u xi
+			1.hashvel bolor mrgeri gumar@.
+			2.avelacnel dzer sirac mirg@ u inchqan eq iran gnahatum
 			
 			
 		1.3	unenq erku set
@@ -349,12 +354,14 @@
 			2.gtnel ayn tver@ vortex z - um kan bayc chkan x - um
 			
 		1.4 unenq erku dict
+
+		markets = [market1,market2]
 			market1 = {                                       
 				"name": "Hovoi mot",
 				"capital":{
 					'1-n amis': 50 
-					'2-n amis': 32 
-					'3-n amis': 124 
+					'2-rd amis': 32
+					'3-rd amis': 124
 				},
 				"apranqneri_mnacord":['dzmeruk','apelsin','lvacqi meqena','adi budi','marojni']
 			}
@@ -366,10 +373,10 @@
 					'2-n amis': 56 
 					'3-n amis': 87 
 				},
-				"apranqneri_mnacord":['mandarin','adi budi','marojni','dzmeruk',''apelsin'']
+				"apranqneri_mnacord":['mandarin','adi budi','marojni','dzmeruk','apelsin']
 			}
 
-			peta stananq es erku dicteri hamar
+			petqa stananq es erku dicteri hamar
 				1.marketi anun@
 				2.marketi @ndanur capital@
 				3.inch apranqner kan 1-in xanutum vor chkan erkrordum.
@@ -422,9 +429,27 @@
      1.File
 		1.1 inch rejimov a ashxatum open() funkcian default-ov
 		
-		1.2 dzer barerov karaq bacatreq te inch dzever kan faileri het ashxatelu hamar
+		1.2 dzer barerov karaq bacatreq te fail@ bacelu hamar inch rejimner kan u inchi hamar en naxatesvac
 	 
-		1.3 unenanq shat failer  u inputi mijocov, harcnenq vor fail@ petqa baci.erb vor user@ kgri faili anun@ petqa uxaki print anenq mer fail mej exac text@
+		1.3 unenanq shat failer u inputi mijocov, harcnenq vor fail@ petqa baci.erb vor user@ kgri faili anun@ petqa uxaki print anenq mer fail mej exac text@
+
+		1.4 unenq users_list = [
+		            {
+		                'first_name': 'Jorj',
+		                'last_name' : 'Bush',
+		                'age':55
+		            },
+
+		            {
+                        'first_name': 'James',
+                        'last_name' : 'Bond',
+                        'age':100
+                    }
+		    ]
+
+		   petqa nax avelacnel mer amen mi useri hamar mi nor tvyal (key:value), heto avelacnel nor user mer listin u failum tpen mer useri tvyalner@
+		   hetevyal formatov
+		   uaer 1: first_name = Gago, last_name = vardanyan,
 
 ==================================================================================================================================================
         	            							Expressions
@@ -441,6 +466,7 @@
         4.1
     5. and or operatorner@
         5.1
+    6.switch case
 
 7.Ciklner - while u for (karch for)
     1. while, break, continue, else
@@ -488,12 +514,11 @@
 ===================================================================================================================================================
 								OOP ?
 
+class Test:
+    __getattribute(self,value):
+        self.y = value
 
 
+x = Test()
 
-
-
-
-	
-
-
+x.z = 6
