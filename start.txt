@@ -4,10 +4,26 @@
 	3. xi henc python, vortexa ogtagorcvum python@ u inch haytni ynkerutyunnerum
 	4. inch tesaki lezua python@, interpretatori u compeliatori tarberutyun@ tipizacian incha 
 	5. practic ashxatanq, install python tpel hello world, mi 2 ban sarqel pythonov titizanalu hamar
-	
-												Tnayin
-	1.stex karanq asenq vortexic enq menq informacia stanum,mi qani link tanq kam tekuz menak w3schools.(chgitem arji videourok asenq nayen? xosqi barisov)u asenq vor google anen misht
-	2.karanq grqer xorhurd tanq ete haves unenan tox or@ mi qani ej kardan(prost@ documentacian mi qich chora grac im jogelov)
+	6.bacatrenq vonc python kod@ grenq faileri mej u vonc run anenq mer arden modul@.
+    		6.1 bacatrumenq input@ - input@ funkciaya vor mez hnaravorutyuna talis stanal tvyalner mer ogtateric.asenq vor erb kod@ hasnuma et inputin,
+    	        heto user@ petqa inch vor ban gri u nor sharunaki kod@.
+
+    		6.2 menq karanq useri grac tvyalner@ stananq mer input@ veragrelov popoxakani.
+
+    		6.3 misht string enq stanum useric, u heto karanq asxatenq voncvor sovorokan stringeri het.orinak ete petq lini sarqenq integer.
+
+    		6.4.uxaki orinak vonc stananq mer useri name@ u lastName u print anenq inch vor texti het.cuyt tanq vor karanq mer inputi label@ grenq nax
+    		dranic araj print anelov,heto aveli harmar dzevov(iran parametr talov)
+
+
+
+        											Tnayin
+	1.install anel pythone@ (stugelu hamar petqa anenq `python -V`)
+	2.sarqenq lesson_1 papka isk ira mej@ unenanq task1.py file
+	3.faili mej print anen iranc anun azgannuner@
+	4.print anen nerka tvakanic hanac iranc tariq@
+	5.stex karanq asenq vortexic enq menq informacia stanum,mi qani link tanq kam tekuz menak w3schools.(chgitem arji videourok asenq nayen? xosqi barisov)u asenq vor google anen misht
+	.karanq grqer xorhurd tanq ete haves unenan tox or@ mi qani ej kardan(prost@ documentacian mi qich chora grac im jogelov)
 
 =================================================================================================================================================
 								Types
@@ -17,28 +33,41 @@
 	1.popoxakanner, incha popoxakan@(tetev orinak urish lezuneri het tipizaciayi het kapvac)
 
 		1.1 skzbum inch vor sovorakan orinak ` name="Hovlo"
-		1.2 ka @ndunvac erku tesak popoxakan haytararelu hamar.arajin@ kochvuma CAMEL CASE (userName),isk erkrord@ UNDERSCORE NATION (user_name).stex uxaki mi qani barov kxosanq sra masin
+		1.2 ka @ndunvac erku tesak popoxakan haytararelu hamar.arajin@ kochvuma CAMEL CASE (userName),isk erkrord@ SNAKE CASE (user_name).
+		chpetqa grenq sax mecatar menak hatuk depqerum.stex uxaki mi qani barov kxosanq sra masin
 		1.3 popoxakannerum chenq kara tanq annuner voronq pythonum unen hatuk nshanakutyunner `(True,False,if,else ...)
 		1.4 python@ dinamik tipizacvac lezua,aysinqn mez petq chi naxoroq haytararel te inch type petq e iran veragrenq.(stex mi qani orinakner urish lezuneric)
 			orinak erb menq grecink vor user="Hovlo" pyhton@ avtomat haskacav vor menq uzum enq string pahenq mer popoxakanum,nuyn@ karanq anenq urish type het.pyton@ dynamik bayc strong tipizacia uni,aysinqn chenq 
 			kara stringin integer gumarenq vorovhetev python@ intuitiv chi haskana te inch petqa ani,isk pythoni grac kod@ misht nenca ashxatum vor ankaxateseli baner chlini. 
 			orinak integer enq haytararum ` user_age=25(eqa txayes ay axper).
-		1.5 cuy tanq te vonc mi toxxov karanq mianqamic mi qani popoxakan haytararenq
+		1.5 cuyc tanq te vonc mi toxxov karanq mianqamic mi qani popoxakan haytararenq
 			orinak x,y = '5',5
-			x,*y = '5',5,9 (es chgitem arji te che)
-			
-	2.(String,Integer,Float,List,Tuple,Dict,Set(frozenset),File,Bool) - slide `popoxvox u chpopoxvox https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
-		2.1 stex arden naxordneri orinakov tetev cuyc tvac klinenq mi qanis@. 	
-	3.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
-		3.0. referanci orinak 
-			x = 1			
+			x,*y = '5',5, 9 (es chgitem arji te che)
+
+    2.(String,Integer,Float,List,Tuple,Dict,Set(frozenset),File,Bool) - slide `popoxvox u chpopoxvox https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
+        2.1 tetev kgrenq mi qani orinakner stringic u integeric.(str u int funkcianer)
+
+		                                                    Tnayin
+
+    1. @ndhanur mi qani harcer
+    			1.1 inch data typer kan pythonum.
+                1.2 unenan first_name popxakan u tan iranc anun@,heto unenen last name u tanc iranc azganun@.petqa stananq full_name popoxakan@
+                et erku popoxakanner@ irar miacnelov(aranqum lini space)
+                1.3 full namein avelacnel age u noric tpel
+    			1.4 X = ‘spam’
+    				Y = ‘eggs’
+                pythoni gorciqneri mijocov inchpes poxel erku popoxakanner@ texerov aranc errord@ haytararelu
+***************************************************************************************************************************************************************************
+	1.(String,Integer,Float) - intro (orinakner vor popxakaner@ poxvum en gorcoxutyunneric heto u pahvum en referance-i mijocov)
+		1.0. referanci orinak
+			x = 1
 			y = x
 			x = 7
 			print(y)
-		3.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej, vor interpretator@ haskana vor popoxakan chi.
-		3.2 karanq arden print anenq sax u iranqel gren mer het.(stringer@ irar miacnelu orinaker)
-		3.3 ete uzum enq toxadarc ogdagorcenq petqa text@ vercnenq 3 hat chakerti mej(eakan chi 1 te 2)
-		3.4 string format.  orinak name = "Hovlo"            kam orinak senc print(f."Hello,{name}")(3.6 ic heto menak)
+		1.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej, vor interpretator@ haskana vor popoxakan chi.
+		1.2 karanq arden print anenq sax u iranqel gren mer het.(stringer@ irar miacnelu orinaker)
+		1.3 ete uzum enq toxadarc ogdagorcenq petqa text@ vercnenq 3 hat chakerti mej(eakan chi 1 te 2)
+		1.4 string format.  orinak name = "Hovlo"            kam orinak senc print(f."Hello,{name}")(3.6 ic heto menak)
 							print("Hello, {}".format(name))
 
 			print("%s %d tarekana" % ('Hovlon',25.444) )
@@ -47,8 +76,8 @@
 			
 			%d - int(decimal - float@ kloracnuma)
 			
-		3.5 nuyn@ karanq asenq Integeri u Floiati hamar(Floati hamar mi qich aranzin kxosanq).meke mi qani orinakner (gumarum,hanum,random,meci u poqri nshanner u tenc inch hishenq)
-	4.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
+		1.5 nuyn@ karanq asenq Integeri u Floiati hamar(Floati hamar mi qich aranzin kxosanq).meke mi qani orinakner (gumarum,hanum,random,meci u poqri nshanner u tenc inch hishenq)
+	2.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
 		4.1 String  - 
 					  str(55) - funkcian.
 					  'string'.lower () mer tvac text@ sax sarcuma poqratar.
@@ -56,7 +85,7 @@
 					  'string'.replace('replaced_string','new_string',count_of_replaced_string) poxuma mer textum exac bar@(kam symbol@) mer uzacov.
 					  'string#number#two'.split('separator') mer tvac text@ bajanuma @st mer tvac symboli u veradarcnuma list(stex tetev asac klinenq listeri masin)
 					  'string'.find('r') ete gtnuma veradarcnuma mer uzac texti index@,isk ete chi gtnum veradarcnuma -1
-	    4.2 Integer - 
+	    2.2 Integer -
 					  x + y
 					  x - y
 					  x / y
@@ -66,17 +95,15 @@
 					  -x sarquma bacasakan
 					  +x sarquma drakan
 					  Int('5') - funkcian
-					  <,>, === # stex kasenq vor veradarcnuma chista te sxal True kam False - i mijocov
+					  <,>, == # stex kasenq vor veradarcnuma chista te sxal True kam False - i mijocov
 					  
-					  
-
-	    4.3 Boolean
+	    2.3 Boolean
 	        linuma @ndamen@ erku tesak True u False.iranq  havasar en 1 - i u 0 - i u et aravaca uxaki nra hamar vor haskanali lini
 
 					  HISHENQ VOR CUYC TANQ STRINGI BAZMAPATKUM@
 
 					  
-	    4.4 Float - sra masin indz tvuma shat ban chkael xosalu prost@ mi qani orinak karanq cuyc tanq.
+	    2.4 Float - sra masin indz tvuma shat ban chkael xosalu prost@ mi qani orinak karanq cuyc tanq.
 					#uxaki integer@ sarquma float
 					print(float(10))
 
@@ -94,13 +121,13 @@
 
 					#float@ vor bajanum es integeri floata misht veradarcnum
 					print(10.2 / 2)
-	    4.5 round(5.6, digits) tetev nerkayacnenq
+	    2.5 round(5.6, digits) tetev nerkayacnenq
 		
 
-	5.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
-		5.1 es indz tvuma arden arecinq
-	6.berel orinak type() funkciayov
-		6.1 String - type('55string')
+	3.Integeri,stringi u floati default funkcianer@ cuyc tal orinaknerov te vortex en petq
+		3.1 es indz tvuma arden arecinq
+	4.berel orinak type() funkciayov
+		4.1 String - type('55string')
 					 type(str(1))
 			Integer - type(1)
 					  type(int('22'))
@@ -110,57 +137,45 @@
 					type(float('22'))
 					
 																Tnayin
-		
-		1. @ndhanur mi qani harcer
-			1.1 incha nshanakum «chpopoxvox» u «popoxvox» terminner@, u voronq en dranq pythonum.
-			1.2 incha nshanakum «последовательность»(hajordakanutyun ha erevi) termin@.
-			1.3 - ? es lutcic em vekale chgitem arji te che.incha nshanakum Polimorfizm, u xia inq@ shat karevor
-			1.4 X = ‘spam’
-				Y = ‘eggs’
-				X, Y = Y, X
-				inch eq karcum inch klini x ev y popoxakannei het
-				
-		*.? erevi skzbum shat sovorakan baner el tanq.orinak ` sax typerov popoxakanner unenan u tpen dranq
-		
-		2.String
-			2.1 unenq sovoroakan popoxakan Integer typov `orinak x = 5 u entadrenq popoxakan s = 'Lesson number '.petqa miacnenq irar et erku popoxakanner@
-				u statnanq senc ardyunq 'Lesson number 5'
+
+		1.String
+			1.1 uneneq mi hat popoxakan
+
+			    text = "some text"
+
+			    print anen `text`-@  + 'changed'-in, @nenc vor arajin popoxakan@ chpoxvi
+
+            1.2 unenanq mi hat popoxakan
+
+                text = "some text"
+
+                `text`-in gumarenq 'changed' aynpes vor `text`-@ tpeluc uotput stananq "some text changed"
 			
-			2.2 unenq erku baric kazmvac text `orinak "Hello world".petqa ogtagorcelov stringi methodner@ stananq texti hakarak dzev@ "world Hello"
+			1.3 unenq erku baric kazmvac text `orinak "Hello world".petqa ogtagorcelov stringi methodner@ stananq texti hakarak dzev@ "world Hello"
 			
-			2.3 entadrenq unenq mi hat senc text s1 = 'dzer tvac tnayin@ shat djvar er, menq chenq kara lucenq sa ' u s2 = '1+1=2'. petqa nax irar miacnenq u 
-				stananq es text@ `dzer tvac tnayin@ shat hest er, menq karanq lucenq sa one+one=two`
+			1.4 entadrenq unenq mi hat senc text
+			    s1 = 'Lorem Ipsum is  ...  dummy text of the printing and typesetting industry.
+			        Lorem Ipsum has been the industry's standard dummy text ever since the ...s,
+			        when an unknown printer took a ...  of type and scrambled it to make a type
+			        specimen book'.
+			    https://www.lipsum.com/ gnaceq ays hxumov u arajin textic ogtvelov lracreq bac toxnvac barer@ ogtagorcelov format() method@
 				
-		3.Integer u Float
-			3.1 inch kveradarcnen hetevyal operatorner@ Pythonum?
-				2 * (3 + 4)
-				2 * 3 + 4
-				2 + 3 * 4
-			3.2  inch type kveradacni hetevyal artahaytutyun@
+	    2.Integer u Float
+			2.1 unenq hetevyal artahaytutyun@
+				    2 * 3 + 4
+                vonc karanq dzevapoxenq artahaytutyun@ vor skzbum ani gumarum@ heto bazmapatkum@
+
+			2.2 inch type kveradacni hetevyal artahaytutyun@ u xi
 				1 + 2.0 +3
-				
+
 			3.3 vonc karanq kloracnenq hetevyal tiv@ 2.5 vor stananq 3
 			
-			3.4 unenq sovorakan tiv `orinak 97.petqa tpenq arandiz 7@ heto 9@ ogtagorcelov matematikakan operatorner
+			4.4 unenq sovorakan tiv `orinak 97.petqa tpenq arandiz 7@ heto 9@ ogtagorcelov matematikakan operatorner
 			
-			3.5 unenq sovorakan tiv `orinak 123.petqa tpenq bolor tveri gumar@ u stananq 6
-			
-		
-				
+			5.5 unenq sovorakan tiv `orinak 123.petqa tpenq bolor tveri gumar@ u stananq 6
 					
 ************************************************************************************************************************************************************
 3.List u Tuple
-	1.bacatrenq vonc python kod@ grenq faileri mej u vonc run anenq mer arden modul@.
-		1.1 bacatrumenq input@ - input@ funkciaya vor mez hnaravorutyuna talis stanal tvyalner mer ogtateric.asenq vor erb kod@ hasnuma et inputin,
-	        heto user@ petqa inch vor ban gri u nor sharunaki kod@.
- 		
-		1.2 menq karanq useri grac tvyalner@ stananq mer input@ veragrelov popoxakani.
-
-		1.3 misht string enq stanum useric, u heto karanq asxatenq voncvor sovorokan stringeri het.orinak ete petq lini sarqenq integer.
-		
-		1.4.uxaki orinak vonc stananq mer useri name@ u lastName u print anenq inch vor texti het.cuyt tanq vor karanq mer inputi label@ grenq nax
-		dranic araj print anelov,heto aveli harmar dzevov(iran parametr talov)
-		
 	2.uzum enq grenq app vor kazmuma ashakertneri annunner@.
 		2.1 skzbum cuyc ktanq dranq talov popxakannertin,heto nuyn@ bacatrelu enq vor aveli hesta listov u senc iravichaknerum aveli haramara list ogtagorcel.
 			x = 'Hovo'     users_list = ['Hovo', 'Vazgen', 'Jarviz']
@@ -193,9 +208,9 @@
 			remove('value') - jnjum enq @st mer value - i
 			reverce() - kstananq mer list@ hakarak uxxutyamb
 			sort(reverse=True) - sortavorel list@ @st achman, isk ete reverse havasara True @st nvazman
-			sum() - @ndunuma iteracion obyekt@ u veradarcnuma iranc gumar@
-		
+
 		2.6 funkcianer
+			sum() - @ndunuma iteracion obyekt@ u veradarcnuma iranc gumar@
 			copy()
 			len()
 			sorted() - chi poxum list@ ayl veradarcnuma nor@, veradarcnuma nor@
@@ -208,40 +223,42 @@
 																	Tnayin
 		1.List
 			
-			1.1 unenq list(users_list = ['Hovo', 'Vazgen', 'Jarviz']).inch kstananq ete print anenq users_list[3] u inchi.
+			1.1 unenq list(users_list = ['Hovo', 'Vazgen', 'Jarviz']).
+
+			tpel listi blor arjeqner@
 			
 			1.2 unenq senc erku hat list
 					x = [1,2,3,4,5,6]
 					z = [7,8,9,10,11]
-				peta imananq iranc @ndhanur erkarutyun@(@st valuneri)
+				peta imananq iranc @ndhanur erkarutyun@
 			
-			1.2 nsheq 4 methodner voronq anmijapes poxum en listi obyekt@
-			
-			1.3 stexcel python file(modul) first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac qanak@ bareri qanak@` label u vor@
+			1.3 nsheq 4 methodner voronq anmijapes poxum en listi obyekt@
+
+            1.4 unenanq userneri list users_list = ['Hovo', 'Vazgen', 'Jarviz'].
+                vonc karanq 1-in indexum gtnvox anun@ poxenq cankacac ayl anunov
+
+			1.5 stexcel python file first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac bareri qanak@` label u vor@
 				knduni Integer typov arjeq.erkrord input@ unena senc 'nsheq bar@ kam text@ vor@ uzum eq bazmapatkel'.ardyunqum stananq mer nshac bar@ kam text@
 				aynqan angam vorqan vor nshel enq arajin inputum
 			
-			1.4 steqcel python file users.py anunov vori mej klini input senc 'avelacne nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
+			1.6 stexcel python file users.py anunov vori mej klini input senc 'avelacnel nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
 			'dzer verjin avelacrac useri annun e `useri anun@`'
 			'mer avelacrac usernern en ['user1','user2'......]'
 			
-			1.5 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
+			1.7 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
 				uzac userin voric heto peta jnjenq et userin mer listic u senc text cuyc tanq 
 				'duq jnjel eq `jnjvac useri anun@ MECATAR`-in'
 				'userner@ voronq mnacel en'.
-				tetev hushum(amen angam fil@ run aneluc menq karananq jnjenq @ndamen@ mek useri.)
-			
+				tetev hushum(amen angam fil@ run aneluc menq karananq jnjenq @ndamen@ mek useri)
+
 		2.Tuple
 			
-			2.1 unenq senc tuple days = ('Erk','Ereq',['Choreq'],'Hing','Urb','Shb','Kr'). vonc karanq vekalenq 'Choreq' valun.
-			2.2 porcel anel naxord tnayini 1.5-rd varjutyun@ ,bayc listi poxaren unenanq tuple
-			
-			
-		@ndhanur hushumner(hishenq vor default funkcianerov menq karanq inch vor mi type poxarinenq miusi)
-		
-		
-		
-**************************************************************************************************************************************************************************		
+			2.1 unenq senc tuple days = ('Erk','Ereq','Choreq','Hing','Urb',['Shb']). vonc karanq avelacnenq 'kiraki' 'Shb' - i het nuyn listum .
+			2.2 porcel anel naxord tnayini 1.6-rd varjutyun@ ,bayc listi poxaren unenanq tuple
+
+		    @ndhanur hushumner(hishenq vor default funkcianerov menq karanq inch vor mi type poxarinenq miusi)
+
+**************************************************************************************************************************************************************************
 
 4.Dict u Set(frozenset)
 	1.unenq xndir vor mer amen mi ashakerti hamar petqa lracnenq iranc tvyalner@(skzbum kasenq tox iranq mtacen,heto nor kbacatrenq).
@@ -314,7 +331,7 @@
 				'professions':['robot', 'dancer']
 			}
 			
-			greq vonc karanq stananq `robot`-@,u poxenq `dancer`-@
+			greq vonc karanq tpenq `robot`-@,u poxenq `dancer`-@
 		
 		
 		1.2 unenq orinak senc dict
@@ -325,7 +342,8 @@
 				"pear": 3
 			}
 			
-			hashvel bolor mrgeri gumar@.inch type kstananq verjum u xi
+			1.hashvel bolor mrgeri gumar@.
+			2.avelacnel dzer sirac mirg@ u inchqan eq iran gnahatum
 			
 			
 		1.3	unenq erku set
@@ -336,12 +354,14 @@
 			2.gtnel ayn tver@ vortex z - um kan bayc chkan x - um
 			
 		1.4 unenq erku dict
+
+		markets = [market1,market2]
 			market1 = {                                       
 				"name": "Hovoi mot",
 				"capital":{
 					'1-n amis': 50 
-					'2-n amis': 32 
-					'3-n amis': 124 
+					'2-rd amis': 32
+					'3-rd amis': 124
 				},
 				"apranqneri_mnacord":['dzmeruk','apelsin','lvacqi meqena','adi budi','marojni']
 			}
@@ -353,10 +373,10 @@
 					'2-n amis': 56 
 					'3-n amis': 87 
 				},
-				"apranqneri_mnacord":['mandarin','adi budi','marojni','dzmeruk',''apelsin'']
+				"apranqneri_mnacord":['mandarin','adi budi','marojni','dzmeruk','apelsin']
 			}
 
-			peta stananq es erku dicteri hamar
+			petqa stananq es erku dicteri hamar
 				1.marketi anun@
 				2.marketi @ndanur capital@
 				3.inch apranqner kan 1-in xanutum vor chkan erkrordum.
@@ -409,16 +429,54 @@
      1.File
 		1.1 inch rejimov a ashxatum open() funkcian default-ov
 		
-		1.2 dzer barerov karaq bacatreq te inch dzever kan faileri het ashxatelu hamar
+		1.2 dzer barerov karaq bacatreq te fail@ bacelu hamar inch rejimner kan u inchi hamar en naxatesvac
 	 
-		1.3 unenanq shat failer  u inputi mijocov, harcnenq vor fail@ petqa baci.erb vor user@ kgri faili anun@ petqa uxaki print anenq mer fail mej exac text@
+		1.3 unenanq shat failer u inputi mijocov, harcnenq vor fail@ petqa baci.erb vor user@ kgri faili anun@ petqa uxaki print anenq mer fail mej exac text@
+
+		1.4 unenq users_list = [
+		            {
+		                'first_name': 'Jorj',
+		                'last_name' : 'Bush',
+		                'age':55
+		            },
+
+		            {
+                        'first_name': 'James',
+                        'last_name' : 'Bond',
+                        'age':100
+                    }
+		    ]
+
+		   petqa nax avelacnel mer amen mi useri hamar mi nor tvyal (key:value), heto avelacnel nor user mer listin u failum tpen mer useri tvyalner@
+		   hetevyal formatov
+		   uaer 1: first_name = Gago, last_name = vardanyan,
+
 ==================================================================================================================================================
-								Expressions
+        	            							Expressions
 
 
 6.(if ,else, elif,) - orinak karanq mi toxov grneq karch linelu depqum
+	1. if
+		1.1
+    2. if-@ if-i mej
+        2.1
+    3. else
+        3.1
+    4. elif
+        4.1
+    5. and or operatorner@
+        5.1
+    6.switch case
 
 7.Ciklner - while u for (karch for)
+    1. while, break, continue, else
+    2. for on list, range(from, to, step)
+    3. for in for
+    4. for on dictionary
+    5. one line for
+        5.1 doubled = [thing for num in lst] # simple
+        5.2 doubled = [num * 2 for num in lst] # with operation
+        5.3 [word for word in lst if len(word) > 5] # with if
 
 8.Funckcianer,funkciai argumentner@, return
 
@@ -456,12 +514,11 @@
 ===================================================================================================================================================
 								OOP ?
 
+class Test:
+    __getattribute(self,value):
+        self.y = value
 
 
+x = Test()
 
-
-
-
-	
-
-
+x.z = 6
