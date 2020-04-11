@@ -1,0 +1,237 @@
+7.Ciklner - while u for (karch for)
+    1. while, break, continue, else
+		1.1 mi qich xosanq incha vabse cikl@.
+			Hamarya bolor cragravorman lezuner@ unen ciklner u grete bolor lezunerum dranq mekic shat en.Pythonum ka @ndhamen@ 
+			erku tesaki cikl ` while u for. Mer praktikayum aveli hachax handipum en for arahaytutyunov ciklner. Ciklner@ @ndhanrapes 
+			petq en erb vor menq uzum enq inch vor ban anel in vor `n` qanakutyamb. Mer arajin orinak@ cuyc ktanq while-ic.
+			orinak `
+					i = 0
+					while i < 10:
+						print(i)
+						i = i + 1
+			aystex mer cikl@ ksharunakvi aynqan jamanak minchev mer while artahaytutyun@ veradarcnum e true;
+			orinak ete men unenainq senc artahaytutyun
+					
+					while true:
+						print('compt varia gnalu')
+					
+					mer cikl@ ksharunakver anverj, aysinqn aynqan minchev mer hishoxutyun@ chprcner
+					
+		1.2 
+			1.2.1 range()
+			nax @stex canotananq mi hat urish python-i funckiayi het vor kochvuma range.
+			range(start, stop, step) funkcian @ndunuma 3 parametr. ete orinak kanchenq range funkcian mek parametrov 
+			
+			orinak`	range(5) uxaki mer start@ default kstana 0 u ksarqi 0-ic mincev 5 hajordakanutyun
+			
+			isk mer errord parametrov karox enq tal te qani tiv petq e bac toxni hajordic tvic mer hajordakanutyan mej
+			
+			1.2.2 for
+			vonc arden nshecinq for cikl@ praktikayum amenashat handipox ciklna
+			i tarberutyun while for artahaytutyun@ @ndunuma hajordakanutyan
+			(et kara lini list,dict,string, range() funckiayov veradarcrac range object)
+			u ashxatuma et hajordakanutyan lengthi qanakov
+			
+			orinak `
+			for number in range(5):
+				print(number)
+				
+			es depqum uxaki mer cikl@ ktpi 0-ic minche 5 tver@, vorovhetev range() funckian mez veradarcrel e 0-5
+			tverov hajordakanutyunov object. number@ et mer tvac opxakani anunna uxaki vor@ vor for artahaytutyun@ ogtagoruma
+			amen mi hajordakanutyan value-i hamar.
+			
+			ornak karanq range()-i ppoxaren tanq  list
+			
+			list = [1,2,3,4,'hing']
+			
+			for x in list:
+				print(x)
+
+			print kani  1
+						2
+						3
+						4
+						hing
+		1.3 break
+			
+			handipelov break operatorin cikl@ dadaruna ira gorcoxutyun@ u koc@ sharunakvua cikli blokic durs.
+			
+			orinak`
+			l1 = [1,2,3,4,'hing']
+			
+			for x in l1:
+				if x == 4
+					break
+				print(x)
+			
+			print kani  1
+						2
+						3
+						
+		1.4 continue
+			
+			handipelov continue operatorin cikl@ uxaki chi sharunaku kod@ ev ancnuma hojordin
+
+			orinak`
+			list = [1,2,3,4,'hing']
+			
+			for x in list:
+				
+				if x == 2
+					continue
+				print(x)
+			
+			print kani  1
+						3
+						4
+						'hing'
+
+		1.5 else
+			
+			else arahaytutyun@ karox e iinel for-i sharunakutyun@ ev hamaravuma voch partadir
+			
+			orinak `
+			
+			for x in 'hello world':
+				if x == 'a'
+					break
+				print(x)
+			else:
+				print('a tar@ goyutyun chuni')
+				
+			else artahaytutyun@ kashxati menak en depqum er vor mer cikl@ avartuma ira ashxatanq@ aranc break operatori
+				
+    
+    2. for in for
+		
+	   2.1 menq karanq grenq cankacac kod mer for bloki mej orinak mi hat urish for.
+
+		orinak`
+
+			adj = ["red", "big", "tasty"]
+			fruits = ["apple", "banana", "cherry"]
+
+			for x in adj:
+			  for y in fruits:
+				print(x, y) 	   
+			
+			print kani  red apple
+						red banana
+						red cherry
+						big apple
+						big banana
+						big cherry
+						tasty apple
+						tasty banana
+						tasty cherry 
+		
+	 
+		
+    3. for on dictionary
+		
+		inchpes arden gitenq dictionary nuynpes hamarvuma hajordakanutyun u mez vochmi ban chi xanarum iran ogtagorcenq me cikli mej
+		
+		orinak
+		
+		user = {
+				'name': 'Hovlo',
+				'age': '26',
+				'proffesion': 'mec axper'
+			}
+		
+		for x in user:
+			print(x)
+		
+		print kani `
+					name
+					age
+					proffesion
+		
+		aysinq ete menq uxaki dicti vrayov enq cikl frum mez veradarcnuma ira keyer@.bayc menq karanq mianqamic ira valuneri vrayov cikl franq
+			orinak`
+				for x in user.values():
+					print(x)
+					
+				print kani `
+							Hovlo
+							26
+							mec axper
+	
+		isk ete menq uzum enq stananq mianqamic ham key-@ ham value-n karanq ogvenq mer dicti .items() methodic vor@ mez kveradacni 
+		list vori valuner@ klinen amen mi key-value arandzin tupli mej
+			
+
+			orinak ` 
+				print(users.items())
+				
+				>>> dict_items([('name', 'Hovlo'), ('age', '26'), ('proffesion', 'mec axper')])
+
+				for x,y in user.items():
+					print(x+':'y)
+		
+				print kani `
+							name:Hovlo
+							age:26
+							proffesion:mec axper
+		
+		ushadrutyun darcreq mer for arahaytutyan mej x-ic baci menq tvel enq erkrord y popxakan@ vorin 
+		python@ avtomat knsahnaki mer dicti valuen, isk x klini key@ 
+	
+	4.enumerate() funkcia ?
+		ete mez petqa orinak mer listi amen mi value-i het stananq hame ira index@ menq karanq ogtvenq enumerate() funkciayic
+		vor arajin parametrov @ndunuma hajordakanutyun@
+		orinak `
+			
+			l1 = [1,2,3,4]
+			
+			for value,index in enumerate(l1):
+				print(value,index)
+				
+			print kani  0 1
+						1 2
+						2 3
+						3 4
+	
+		BAYC ES UXKI ORINAKA VONC KARANQ OGTAGORCENQ ES FUNCIAN FOR-I MEJ
+	
+    5. one line for
+        5.1 doubled = [thing for num in lst] # simple
+			ete mez petqa katarel hasarak gorcoxutyun for-i het, es depqeri hamar python@ dra hamar uni aveli karch u haskanali dzev
+			
+				orinak`
+					l1 = [1,2,3,4]
+					
+					l2 = [number for number in l1]
+
+					print(l2)
+
+					>>> [1, 2, 3, 4]
+					
+				
+        5.2 doubled = [num * 2 for num in lst] # with operation
+			
+			menq karanq anenq inch vor gorcoxutyn mer ameni mi value-i hamar uxaki dnelov ayn artahaytutyan skzbum
+			
+				orinak`
+				
+					l1 = [1,2,3,4]
+					
+					l2 = [number * 2 for number in l1] // miangamic veragrum enq popoxakani
+
+					print(l2)
+					
+					>>>[2, 4, 6, 8] 
+			
+        5.3 [word for word in lst if len(word) > 5] # with if
+		
+			ete petqa menq katarenq gorcoxutyun inch vor casum mer value-neri het et depqum karanq uxaki artahaytutyan verjum avelacnenq mer uzac 
+			artahaytutyun@
+				orinak`
+			
+					l1 = [1,2,3,4]
+					
+					l2 = [number * 2 for number in l1 if number > 2] 
+
+					print(l2)
+					
+					>>>[6, 8] 

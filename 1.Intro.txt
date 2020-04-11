@@ -1,0 +1,26 @@
+1. intro
+	1. mez nerkayacnel, kurseri npatak@ inchi khasnen kurseric heto, xia dzri kurser@, inch petqa anenq ardzyunqi hasnelu hamar
+	2. incha cragravorum@, cragravorman lezun u inchi hmar 
+	3. xi henc python, vortexa ogtagorcvum python@ u inch haytni ynkerutyunnerum
+	4. inch tesaki lezua python@, interpretatori u compeliatori tarberutyun@ tipizacian incha 
+	5. practic ashxatanq, install python tpel hello world, mi 2 ban sarqel pythonov titizanalu hamar
+	6.bacatrenq vonc python kod@ grenq faileri mej u vonc run anenq mer arden modul@.
+    		6.1 bacatrumenq input@ - input@ funkciaya vor mez hnaravorutyuna talis stanal tvyalner mer ogtateric.asenq vor erb kod@ hasnuma et inputin,
+    	        heto user@ petqa inch vor ban gri u nor sharunaki kod@.
+
+    		6.2 menq karanq useri grac tvyalner@ stananq mer input@ veragrelov popoxakani.
+
+    		6.3 misht string enq stanum useric, u heto karanq asxatenq voncvor sovorokan stringeri het.orinak ete petq lini sarqenq integer.
+
+    		6.4.uxaki orinak vonc stananq mer useri name@ u lastName u print anenq inch vor texti het.cuyt tanq vor karanq mer inputi label@ grenq nax
+    		dranic araj print anelov,heto aveli harmar dzevov(iran parametr talov)
+
+
+
+        											Tnayin
+	1.install anel pythone@ (stugelu hamar petqa anenq `python -V`)
+	2.sarqenq lesson_1 papka isk ira mej@ unenanq task1.py file
+	3.faili mej print anen iranc anun azgannuner@
+	4.print anen nerka tvakanic hanac iranc tariq@
+	5.stex karanq asenq vortexic enq menq informacia stanum,mi qani link tanq kam tekuz menak w3schools.(chgitem arji videourok asenq nayen? xosqi barisov)u asenq vor google anen misht
+	.karanq grqer xorhurd tanq ete haves unenan tox or@ mi qani ej kardan(prost@ documentacian mi qich chora grac im jogelov)

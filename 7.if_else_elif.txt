@@ -1,0 +1,86 @@
+6.(if ,else, elif,) - orinak karanq mi toxov grneq karch linelu depqum
+	1. if
+		1.1 karanq skzbum bacatrenq blokneri syntax@
+		1.2 verhisenq inch boolean type.
+		1.3 if operator mej petqa veradarcnenq true, kam voch null arjeq unecox artahaytutyun.
+		ete hajordakanutyan erkarutyun@ mec e 0-ic uremn nuynpes mtnuma if operatori mej
+			
+			orinak`
+				a = 33
+				b = 200
+				if b > a:
+					print("b mec e a-ic")
+    2. if-@ if-i mej
+        2.1 karanq unenanq inchqan uzenanq if urish if-i mej.karevor paymana menak vor syntaxi kanonner@ pahenq
+			orinak`
+			a = 33
+			b = 200
+			c = 200
+			if c == b:
+				print("c havasar e b")
+				if c > a:
+					print("c mec e a-ic")
+    3. else
+        3.1 else - hamarvuma if statment-i sharunakutyun@ u chi hamarvum partadir(ogtagorcvuma voch miayn if-i het).
+		3.2 else bloki kod@ mej mtnuma erb vor if-@ veradarcnuma false.
+		orinak`
+				a = 33
+				b = 200
+				if b > a:
+					print("b mec e a-ic")
+				else:
+					print("c mec e b-ic")
+					
+				print("stex amen depqum linelua")
+				print("stex amen depqum linelua")
+    4. elif
+        4.1 elif - nuynpes if statment-i sharunakutyuna, hamavuma voch partadir bayc ogtagorcvuma miayn if-ic heto
+		4.2 elif@ ogtagorcvuma urish payman talu hamar, u karanq unenanq aynqan elif vorqan vor mer paymannern en
+		orinak`
+			a = 200
+			b = 33
+			if b > a:
+			  print("b mece a-c")
+			elif a == b:
+			  print("a ev b havasar en")
+			else:
+			  print("a mece b-c")
+    5. and or operatorner@
+        5.1 if kam eliv operatorneri nersum petqa uneanan aynpisi artahaytutyun vor veradarcni true. menq karanq mi qani payman grenq 
+			if-i mej ogtagorcelov and ev or operatorner@
+		5. and ev or logicheski operatorner@ ogtagorcvum en mi qani operatorner miacnelu hamar
+			1 - and operatoro@ ogtagorcelov petqe mer erku kam avel artahaytutyunnr@ misht veradarcnen true
+				orinak`
+				a = 200
+				b = 33
+				c = 500
+				if a > b and c > a:
+				  print("erku paymannernel chisht en")
+			2 - or operator@ gtagorcelov petqe mer gone mek payman@ veradarcni true 
+				orinak`
+				a = 200
+				b = 33
+				c = 500
+				if a > b or a > c:
+				  print("chist e mer erkrord tvac payman@")
+				  
+	6.chgitem stex arji scope-eric xosanq?
+		x = 41
+		if x > 10:
+		  print("mece 10-ic")
+		  if x > 20:
+			print("ev mece 20-ic")
+		  else:
+			print("bayc mec che 20-ic.")  
+		else:
+			print(poqr e 10-ic)
+		
+	7.switch case
+		7.ape bayc voncvor chka es mek@.senc ban karanq orinak cuyc tanq(stackoverflow-ic em gtel)
+			unit_to_multiplier = {
+				'mm': 10**-3,
+				'cm': 10**-2,
+				'dm': 10**-1,
+				'm': 1,
+				'km': 10**3
+			}.get('km', 0)

@@ -1,0 +1,125 @@
+4.Dict u Set(frozenset)
+	1.unenq xndir vor mer amen mi ashakerti hamar petqa lracnenq iranc tvyalner@(skzbum kasenq tox iranq mtacen,heto nor kbacatrenq).
+		1.1 arden mer ancac typerov vonc et xndir@ lucenq ?  orinak karanq unenanq listum useri tvyalner@ ['"jorj","bush", "57"]. stex nax mez metqa angir hishenq te mer useri konkret vor tvyal@ vor indexova pahac.
+			isk inch klini ete orinak user@ shat tvyalner unena? dra hamar mez aveli harmar klini unenal Dictionery.
+		1.2 Dict@ haytararelu hamar menq karanq skzbi hamar anenq da dict() funkciayov.orinak x = dict() kam  x = {}
+
+        1.3 stex karanq henc dict@ hayatrarelu jamanak grenq ira valuener@ x = {'name' : 'jorj','lastname':'bush','age':57}
+		    kam skzbum hayatrarenq datark dict@ u heto avelacnenq dra mej.orinak x["name"] = "jorj".ete uzenanq update anenq mer tvyal@ karanq uxaki grenq x["name"] = "valod".
+		    heto ete uzenanq print anenq mez @ndamen@ petqa asenq print(x["name"]) kam ete uzum enq avelacnenq uxaki grum enq mer nor key@ x["country"] = 'USA'
+
+        1.4 Dict@ i tarberutyun listi chuni fixvac hertakanutyun, kara amen angam tarber hertakanutyamp tpi u dra hamar petq chi huys dnel hertakanutyan vra.
+
+        1.5 Dict@ mutable type-a
+            orinak x = {"name" : "jorj"}
+                   y = x
+                   x["name"] = 'valod'
+
+                   stex mer y nuynpes kpoxi ira arjeq@
+        1.6 metodner
+          get() - hishumenq vor karanq sovorakan qarakusi pakagcerov vekalenq, bayc dra poxaren ka aveli kayf dzev vekalelu mer valuen, et get() methodna,
+                    vorin talis enq mer key@, vor@ chgtnelu jamanak mez veradarcnum a None ayl voch te error.menq karanq nayev tanq iran mer deafaul value-n u erb vor
+                    chgtni mer key-@ uremn return kani iran
+
+          pop() - jnjuma @st keyi ur veradarcnum iran
+
+          keys() - veradarcnuma mer dicti keyer@ listum
+
+          values() - veradarcnuma mer dicti valuner@ listum
+
+          items() - veradarcnuma list vori mej mer key:valuner@ pahvum en arandzin tuplneri mej
+
+          update() - erku dict irar miacnelu hamar petqa uxaki 1 in dictic haytararel update() method@ iran vorpes parametr talov erkrord dict@
+
+          1.7 listi u dicti hamadrutyun
+               voncvor listum ,menq karanaq mer dictum pahenq tarber typer.bayc aveli hachax kirarvox depqerum menq unenum enq lister vorum pahum enq dicter
+               vorovhetev tenc mez aveli harmara linum ashxatel
+               orinak users_list[{'name':'jorj','age':23},{'name':'james','age':45}].
+               es depqum mer listi 0 index-i name@ stanalu hamar karanq senc anenq users_list[0]['name']
+
+	2.nerkayacnenq incha set@.
+	    2.1 set@ dicti nmana uxaki nra mej valuner@ chen pahvum @ keyeri, u nra mej exac valuner@ misht unique en. ira arandznahatkutyunneric mek@ ena vor shat araga
+	    get anum ira valuener@.shat nmana matematikakan hamaxumb/bazmutyn@ u karanq gtnenq dranc hatum@ miavorum@.
+	        orinak senc set karanq unenanq x = {1,2,"hello"},ete stex avelacnenq verjum es valuneric inch vor mekic meka inq@ et value-n chi avelanalu
+        2.2 methodner(sax orinakner@ cutc enq talu KLOR orinaknerov)
+
+            union() - erku seter@ irara miacnum u jnjuma krknvox arjeqner@
+
+            difference() - cuyca tali te vor andamner@ arajinum kan isk erkrordum che
+
+            intersection() - cuyca talis en andamner@ voronq 2 texum kan
+
+            add() - avelacnuma item set-um
+
+            remove() - jnjuma item-@ setic
+
+    3.frozenset@ nuyn setna uxaki popoxeli chi u mej@ ban avelacnel u jnjel chi linum
+    
+	4.verjum random funkciayov k@ntrenq mi hogu u hajord dasin inq@ petqa bacatri ira tnayinner@ bolorin.
+	5. orinak cuyc tanq vor unique list stanalu hamar karox enq sarqel set heto noric list
+	
+	
+																		Tnayin
+																		
+	1 Dict
+		1.1 unenq orinak senc dict
+			x = {
+				'name':'Jarviz',
+				'age' : '100',
+				'professions':['robot', 'dancer']
+			}
+			
+			greq vonc karanq tpenq `robot`-@,u poxenq `dancer`-@
+		
+		
+		1.2 unenq orinak senc dict
+			prices = {
+				"banana": 4,
+				"apple": 2,
+				"orange": 1.5,
+				"pear": 3
+			}
+			
+			1.hashvel bolor mrgeri gumar@.
+			2.avelacnel dzer sirac mirg@ u inchqan eq iran gnahatum
+			
+			
+		1.3	unenq erku set
+			x = {1,2,4,5,87,548}
+			z = {6,11,55,4,5,343}	
+			
+			1.gtnel ayn tver@ voronq kan erku setum
+			2.gtnel ayn tver@ vortex z - um kan bayc chkan x - um
+			
+		1.4 unenq erku dict
+
+		markets = [market1,market2]
+			market1 = {                                       
+				"name": "Hovoi mot",
+				"capital":{
+					'1-n amis': 50 
+					'2-rd amis': 32
+					'3-rd amis': 124
+				},
+				"apranqneri_mnacord":['dzmeruk','apelsin','lvacqi meqena','adi budi','marojni']
+			}
+			
+			market2 = {
+				"name": "Hovoi @ngeroj mot",
+				"capital":{
+					'1-n amis': 33 
+					'2-n amis': 56 
+					'3-n amis': 87 
+				},
+				"apranqneri_mnacord":['mandarin','adi budi','marojni','dzmeruk','apelsin']
+			}
+
+			petqa stananq es erku dicteri hamar
+				1.marketi anun@
+				2.marketi @ndanur capital@
+				3.inch apranqner kan 1-in xanutum vor chkan erkrordum.
+				4.inch @ndhanur apranqner unen pahestum
+			
+		1.5 stexcel python file vori users.py anunov.unenanq arajin@ input senc venagrov 'inch apranq eq uzum gtnel'.ogtvelov mer naxord tnayini `errord marketic` cuyc tal 
+			'pahestum ka tvyal apranq@' ete useri grac apranq@ ka mer errort marketi pahestum.isk ete chgtni cuyc tanq senc 'apranq@ bacakayum e' text@
+			

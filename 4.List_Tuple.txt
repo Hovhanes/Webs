@@ -1,0 +1,82 @@
+3.List u Tuple
+	2.uzum enq grenq app vor kazmuma ashakertneri annunner@.
+		2.1 skzbum cuyc ktanq dranq talov popxakannertin,heto nuyn@ bacatrelu enq vor aveli hesta listov u senc iravichaknerum aveli haramara list ogtagorcel.
+			x = 'Hovo'     users_list = ['Hovo', 'Vazgen', 'Jarviz']
+			y = 'Vazgen'
+			z = 'Jarviz'
+			listum karanq unenq tarber typeri valuner(orinak String,Integer, listi mej list ...)
+		2.2 bacatrenq listum indexsavorum@, vor sksuma 0 ic, u vor index@ vonc karanq tpenq.
+    	     orinak berenq te vonc karanq listi index@ stanalov iran urish tvyal veragrenq - users_list[0] = 'Tatul'
+			slice -  users_list[0:2] - 'Hovo', 'Vazgen'
+		      users_list[0:]
+		      users_list[-1]
+		      users_list[:]  - copy
+		      users_list[::-1] - reverce
+		      users_list[::1]
+         
+		2.3 operatorner 
+			erku listeri irar gumarum@ users_list + ['25','35','&']
+			list@ karas bazmapatkes -  users_list * 3
+							 
+		2.4 list mutable
+					list@ hamarvuma popoxvox type, aysinqn 
+						orinak ` x = [1, 2, 3]
+									y = x
+									hima ete x[0] = 100, u tpenq y apa ktesnenq vor ira mejnela poxvel arjeq@
+
+		2.5 methodner
+			append() - entadrenq mer mot nor ashakerta eke, uzumenq avelacnenq  iran mer mot. dra hamar ogtagorcum enq apend methodov vor@ misht mer listi verjuma avelacnum.
+			pop() - kam orinak ete uzum enq pakasacnenq mer verjin ekac userin ogtagorcum enq pop, vor@ jnjuma listi verji arjeq@ u veradarcnum ayn.
+			insert( 1, ''user') - ete uzum enq konkret indexov avelacnenq.
+			remove('value') - jnjum enq @st mer value - i
+			reverce() - kstananq mer list@ hakarak uxxutyamb
+			sort(reverse=True) - sortavorel list@ @st achman, isk ete reverse havasara True @st nvazman
+
+		2.6 funkcianer
+			sum() - @ndunuma iteracion obyekt@ u veradarcnuma iranc gumar@
+			copy()
+			len()
+			sorted() - chi poxum list@ ayl veradarcnuma nor@, veradarcnuma nor@
+
+		
+	3.tuple - asenq te inchna listi u tupli tarberutyunner@,berenq orinakner te te vonc karanq default funkcianerov(list(),tuple()) mi type poxenq miusov
+		3.1 listi meji value - n karanq poxenq, isk tuplin@ che.
+		3.2 tupl@ karanq ogdagorcenq en depqum ete mez petqa hamozvac linenq vor hetagayum sxalmamb chenq karox poxel ayn.
+		
+																	Tnayin
+		1.List
+			
+			1.1 unenq list(users_list = ['Hovo', 'Vazgen', 'Jarviz']).
+
+			tpel listi blor arjeqner@
+			
+			1.2 unenq senc erku hat list
+					x = [1,2,3,4,5,6]
+					z = [7,8,9,10,11]
+				peta imananq iranc @ndhanur erkarutyun@
+			
+			1.3 nsheq 4 methodner voronq anmijapes poxum en listi obyekt@
+
+            1.4 unenanq userneri list users_list = ['Hovo', 'Vazgen', 'Jarviz'].
+                vonc karanq 1-in indexum gtnvox anun@ poxenq cankacac ayl anunov
+
+			1.5 stexcel python file first_input.py anunov.mej@ unenanq 2 input.arajin@ unena senc `nsheq dzer uzac bareri qanak@` label u vor@
+				knduni Integer typov arjeq.erkrord input@ unena senc 'nsheq bar@ kam text@ vor@ uzum eq bazmapatkel'.ardyunqum stananq mer nshac bar@ kam text@
+				aynqan angam vorqan vor nshel enq arajin inputum
+			
+			1.6 stexcel python file users.py anunov vori mej klini input senc 'avelacnel nor user?' labelov.amen angam user avelacnelov ardynq@ peta lini senc
+			'dzer verjin avelacrac useri annun e `useri anun@`'
+			'mer avelacrac usernern en ['user1','user2'......]'
+			
+			1.7 stexcel python file delete_users.py vori mej lini input senc 'dzer usernern en [users_list]` um eq cankanum jnjel?'.user@ petqa gri ira
+				uzac userin voric heto peta jnjenq et userin mer listic u senc text cuyc tanq 
+				'duq jnjel eq `jnjvac useri anun@ MECATAR`-in'
+				'userner@ voronq mnacel en'.
+				tetev hushum(amen angam fil@ run aneluc menq karananq jnjenq @ndamen@ mek useri)
+
+		2.Tuple
+			
+			2.1 unenq senc tuple days = ('Erk','Ereq','Choreq','Hing','Urb',['Shb']). vonc karanq avelacnenq 'kiraki' 'Shb' - i het nuyn listum .
+			2.2 porcel anel naxord tnayini 1.6-rd varjutyun@ ,bayc listi poxaren unenanq tuple
+
+		    @ndhanur hushumner(hishenq vor default funkcianerov menq karanq inch vor mi type poxarinenq miusi)
