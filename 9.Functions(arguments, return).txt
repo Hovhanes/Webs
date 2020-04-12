@@ -1,3 +1,225 @@
-8.Funckcianer,funkciai argumentner@, return
+8.Funckcianer,funkciai argumentner@, return,Tesaneliutyan makardakner?
+	8.1. Incha funkcian u inchi hamara ogtagorcvum
+	Ete porcenq nkaragrnq inch funkcian sovorakan barerov, uremm karanq tanq senc karch nkaragrutyn
+	Funkcian inch vor kodi bloka, vortex karan irar miacrac linen tarber instrukcianer vor@ menq karanq ogtagorcenq
+	shat angam.Menq karanq unenanq orinak funckia vor@ mez kveradarcni inch vor tarber hasvarkner kaxvac nra @ndunac parametreri.
+	Funckcianeri shnoriv menq el stipvac nuyn cod@ chenq copy anenq u dnenq urish tex ayl kogtagorcenq mi funckian
+	aynqan angam vorqan vor petqa inchi shnoriv shat aveli kkarchana mer grac kod@
+	
+	8.2 Vonc karanq grenq mer arajin funkcian
+	Chnayac nran vor menq arajin angam enq canotanum vonc petqa grenq funkcianer menq arden ogtagorcel enq drancic mi qanis@
+	naxord daserum. Drancic en orinak open() default funkcian vor@ ogtagorcel enq faileri het ashxatelu hamar, kam orinak
+	len() funkcian erb vor uzecel enq imanal mer hajordakanutyan erkarutyun@;
+	
+	Nor funckia greluc araj nax karevora imanal vor dranq asxatelu en nuyn dzev vonc vor default funkcianer@.
+	Funkcian uni hetevyal format@
+	
+	def <name>(arg1, arg2,... argN):
+		<statements>
+	
+	
+	orinak `
+		def f1():
+			print('hello world')
+	
+	Funkcia kazmum enq def instrukciayi mijocov voric heto talis en dra anun@ voncvor orinak popoxakin einq talis
+	(oriank f1) voric het petqa verjaketi mijocov asenq vor bacum enq funkciayi blok@. Mer orinaki mej menq mer funkciayi 
+	mej menq uxaki print enq arel in vor text bayc dra poxaren karainq aneinq inch vor uzum einq. Bayc mer grac funkcian 
+	chi ashxati minchev menq chkanchenq nran kanchelu hamar petqa uxaki grenq mer funkciayi anun@ + () 
+	aysinqn mer depqum ` f1();
+		
+		def f1():
+			print('hello world')
 
-Tesaneliutyan makardakner?
+		f1() // print kani `Hello world
+		
+	8.3 Funkciayi argumentner
+	
+		8.3.1 argumentner
+		Vonc tenum enq, funkcian kazmeluc nra pakagceri mej menq karanq danq argumentner. Argumentner@ karan linen aynqan voraqan
+		vor cankanum enq. Karch asac argument@ inch vor iformaciaya vor@ menq karanq tanq mer funkciayin nran kanchelc, vor@ vor
+		kara amen angam tarber lini inchi snoriv mer funkcian kara lini aveli dinamik.
+		
+		orinak `
+			def f1(arg1):
+				print(arg1 * arg1)
+				
+			f1(2)
+			
+		mer berac orinakum menq sarqel en funkcia vor@ @ndunuma @ndamen@ mek parametr vorin menq anvanel enq `arg1(sra tex@ 
+		karaq greq inch anun vor uzumenq,bayc vonc vor popoxakan haytarareluc aveli lava dzer nax@ntrac argumentneri anuner@
+		linen imastavorvac ev hushen te orinak inch type a @ndunelu). Stex ushadrutyun darcreq te vonc enq kanchum mer funkcian.
+		nran pakagcerum talis enq mer argumeni arjeq@ `( 2 ).Mer depqum mer funkcian ktpi mez mer tvac arajin argumenti
+		qarakusin aysinqn 4.
+		
+			def f1(arg1):
+				print(arg1 * arg1)
+				
+			f1(10)
+			
+			print kani ` 100
+		
+		Menq arden grel enq funckia vor@ printa anum mer uzac tvi qarakusin. Aysinqn menq unenq @ndamen@ mek argument vorin
+		menq karanq poxancenq cankacac tiv ev mer funkcian mez ktpi et tvi qarakusin.Mer grac kodic menq arden karanq 
+		tetev patkeracum kazmenq te inchqan hesta grel funkcia u inqan karevor der karan unenan funkcianer@ mez hamar.
+		
+		
+		Orinak funkcia erku argumentov
+			
+			def f2(arg1, arg2):
+				print('my name is' + arg1)
+				print('My email ' + arg2)
+				
+			f2('boyov','test@email.com')
+			
+			print kani ` 
+				>>> my name is boyov
+				>>> My email test@email.com
+		
+		bayc ete orinak ete mer funkcian @ndunama erku parametr bayc menq iran kanchen talov @ndamen@ mek parametr 
+		menq kstananaq exception.
+
+		Orinak `
+			def f2(arg1, arg2):
+				print('my name is' + arg1)
+				print('My email ' + arg2)
+				
+			f2('boyov')
+			
+			TypeError: f2() missing 1 required positional argument: 'arg2'
+			
+		Stex menq tesnum enq vor pyton@ mez asuma vor mer f2() funkcian @ndunuma erkrord partadir argument.
+		Shat karevora hishel nayev en vor erb vor funkcian kanchum enq u iran enq poxancum argumentner,funkcian kstana
+		et argumentner@ en hajordakanutyamb vorov menq poxancel enq funkcian kancheluc.
+		
+		https://getkt.com/wp-content/uploads/2019/05/Parameters-vs-Arguments.jpg
+		
+		
+		orinak es nkarum mer funkciayi arajin argument@ ( a ) klini 2, vorovhetev menq nran poxancel enq arajin@, isk
+		erkrord argument@ ( b ) klini 3.
+	
+		8.3.2 Voch partadir argumentner
+		
+		Menq tesanq vor erb vor funkcian greluc menq asum enq vor na petqa @nduni erku argument, u erb iran kanchumenq
+		u chenq talis drancic inch vor mek@ me stanum enq error vorovetev menq grel einq mer funkcian aynpes vor ira
+		argumentner@ linen partadir. Menq karanq anenq anenq nenc vor mer argumentner@ chlinen partadir.
+		
+		Orinak `
+			def f2(arg1, arg2 = 'Null'):
+				print('my name is' + arg1)
+				 
+				if(arg2 != 'Null'):
+					print('My email ' + arg2)
+				
+			f2('boyov')
+		
+			>>> my name is boyov
+			
+		mez petqa @ndamen@ tal mer ayn argumentin vor@ vor petqa chlini partadir inch vor skzbnakan arjeq, vor erb vor 
+		menq uzenanq kanchenq mer funkcian u chtanq iran et voch partadir argument@ ayn arden unena inch vor arjeq.
+		Isk mer berac oriankum menq uxaki stugum enq ete mer erkrord argumenti arjeq@ havasar che mer default tvac arjeqin
+		nor et jamanak tpi nayem ayn. Stex petqa haskanal @ndamen@ en vor ete menq funkcian kancheinq nran talov erkrord
+		(voch pardatir argument@ vor@ uni arden inch vor arjeq) mer argumenti arjeq@ kliner mer tvac funkciayi arjeq@
+		voch te inch vor menq tvel einq iran skzbnakan.
+		
+		Orinak `
+		
+			def f2(arg1, arg2 = 'Null'):
+				print('my name is' + arg1)
+				 
+				if(arg2 != 'Null'):
+					print('My email ' + arg2)
+				
+			f2('boyov','test@gmail.com') //print kani test@gmail.com vorovhetev ays depqum mer arg2 = 'test@gmail.com'
+										 // ayl voch te 'Null'
+		
+			>>> my name is boyov
+			>>> My email test@gmail.com 
+		
+		Default funkcianeric ornak eli hishenq len() funkcian. Menq karanq tanq iran cankacac hajordakanutyun, u mer funkcian
+		mez kveradarcni mer hajordakanutyan erkarutyun@.
+		
+		Orinak `
+			a = {'a':5}
+			b = [1, 2, 3]
+			c = 'Hello'
+
+			print(len(a))
+			print(len(b))
+			print(len(c))
+		>>> 1
+		>>>	3
+		>>>	5
+		
+		es depqum len() funkcain stanuma tarber typeri arjeqner u veradarcnum dranc erkarutyun@.Es orinak@ uzum em cuyc tanq
+		u mi qich xasanq polimorfizmi masin(karanq urish anun tanq uxaki vor iranc haskanali lini) u bacatrenq vor hnaravorin
+		chapov petqa mer argumentner@ chlinien nuyn tesaki u mer funckian veradarcni inch vor arjeq kaxvac mer tvac argumentneri 
+		typeric.
+	
+	8.4 return
+	
+		@ndhanrapes ete xosum enq funkcianeric menq asum enq vor funkcian veradarcnuma inch vor arjeq.
+		orinak mer len() funkcian mez veradarcnuma integer typov arjeq. Ete uzum enq vor mer funkcian mez veradarcni inch vor 
+		arjeq menq petqa ogtagorcenq return operator@.
+		
+		Orinak ` 
+			
+			def f1(arg1, arg2):
+				return arg1 + arg2 
+				
+			f1(5,4)
+		es depqum mer f1() funkcian mez kveradarcni ira eru argumentneri gumar@.Dran hamozvelu hamar menq petqa uxaki print
+		anenq mer funkcian.
+		
+		print(f1(5,4))
+		
+		>>> 9
+		
+		stugelu hamar te inch type kveradarcni mer funkcian menq karaqn print anenq mer funkcia uxaki talov iran type() funkciain
+		
+		print (type(f1(5,4)))
+		
+		>>> <class 'int'>
+		
+		isk ete mer funkcian return chi anum inch vor arjeq, uremn print aneluc menq kstananq uxaki `None
+		
+		Orinak ` 
+		
+		def f1(arg1, arg2):
+			arg1 + arg2
+				
+		print(f1(5, 4))
+		
+		>>> None
+		
+		Stex karevora imanal vor ete interpretator@ hasnuma return-in inq@ el chi sharunakum kod@ funkciayi mej u mianqamic 
+		returna anum mer tvac arjeq@.
+		
+		Orinak `
+		
+			def f1(arg1, arg2):
+				print('Stex print kani')
+				return arg1 + arg2 
+				print('Stex print chi ani')
+			f1(5,4)
+			
+		menq karanq mer kanchac funkcian tanq popoxakani
+		
+		Orinak `
+			x = f1(5,4)
+			print(x)
+			
+			>>> 9
+			
+			print(type(x) = type(9))
+			
+			>>> True
+			
+	8.5 tesanelutyan makardakner?  arandzin einq uzum sarqeinq bayc chem hishum xi
+			
+
+		
+	
+	
+	
+		
