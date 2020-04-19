@@ -1,0 +1,250 @@
+1. Tesaneliutyan makrdakner@
+	
+	1.1 menq arden aranq sarqenq mer custom funkican, bayc dranic baci menq petqa nax haskananq te vonc en gorcum 
+	annuner@(orinak popoxakani) pythonum. Amen angam erb menq haytarum enq inch vor popoxakan u talis enq iran
+	inch vor arjeq pythoni interpretator@ porcuma gtnel iran namespace-um(hayeren chgitem vonc asem). Erb menq
+	xosum enq  tesaneliutyan makardak termin@ masin menq karanq asenq vor et en namespace-na vortex haytararvela mer name.
+	
+	1.2
+	python@ haytararuma ANUN-i namespace ayntex vortex vor menq veragrum enq iran inch vor arjeqi.
+	grelov funkcia menq avelacnum enq mi hat nor shert mer namespace-i hamar. Aysinqn mer cankacac popoxakan
+	vor@ vor haytararvaca funkciayi nersum patkanum e et funkicayi namespace-in.
+	Et nshanakuma vor
+		1.amen mi ANUN vor@ vor haytararvaca funkicayi nersum patkanuma et funkciayin  u chu kara hasaneli 
+		linel iranic durs(hl@ vor)
+		
+		2.ameni mi ANUN vor@ haytarvaca funkciayi nersum konflikti mej chi mtnum ira namespace-ic durs gtnvox
+		ANUNNERI het, ete nuynisk iranq unenan nuyn annunner@
+		
+		
+		x = 5
+		
+		def func1():
+			x = 10
+			print(x)
+			
+		func1()
+		print(x)
+		>>> 5
+		>>> 10
+		
+	Stranq @ndunelov karanq asenq hamel vor
+		
+		1. ete ANUN-in veragrum enq funkciayi nersum uremn menq 
+		karanq asenq vor et ANUN@ et funkicayi hamar hamarvuma local
+		
+		2.ete ANUN-in veragrum enq funkciaym gtnvox urish funkciayi mej,
+		uremn karanq asenq vor glxavor(aysinqn en funkcian vor mej haytararvaca urish funkcain) 
+		funkciayi hamar et ANUN-@ khamarvi nonlocal
+		
+		3.ete ANUN-in veragrum enq et funkcaieric durs,uremn
+		karanq asenq vor et ANUN-@ hamarvuma global
+		
+	1.3 @ndhanur patkeracum
+	
+	Global aselov menq nkati unenq vor ayn @nhdanura menak et fail-i(moduli) hamar voch te vor menq
+	karanq ogtagorcenq cankacac tex. Global- aysinq menq grel enq mer ANUN-@ mer moduli amenvervi shertum
+	vortexic vor erevuma amen inch
+	
+	patkeracnelu hamar vonca interpretator@ gtnum ANUNNER@ karanq karanq senc cuyc tanq
+	
+	1.@NDHANUR SCOPE
+		stex gtnvum en en ANUNNER@ voronq vor python-um ogtagorcvum en amen tex ankax ira modulic
+		
+		2.Global 
+			aysinqn moduli verin chertna vortex ANUNNER@ haytararvac en u hasaneli en bolor namespace-um,
+			kam ete funkciayi mej ayn haytararvaca vorpes global(et hl@ kancnenq)
+			
+			3. nonocal
+				mer funkcianeri nersum urish funkcaiyi mej haytararac ANUN-@ vor hasanelia menak iranc hamar
+				
+				
+	1.4 Orinakner
+	
+		# Global namespace
+		
+		X = 99 # X u func haytarvac en moduli verin shertum: global namespace
+		
+		def func(Y): # Y u Z haytararvac en funkcaiyi nersum: local namespace
+			# local namespace
+		
+			Z = X + Y # X – global namespace-uma haytararvac
+			return Z
+		
+		func(1)
+		
+		>>> 100
+		
+	stex petqa haskanal shat karevor mi pah. ete menq print anenq x-@ funkicayi 
+	menq ktesnenq vor havasara 99
+		
+		
+		
+		
+		
+		X = 99 
+		
+		def func(): 
+			print(X)
+			z = 4
+		func()
+		
+		>>> 99
+		>>> Traceback (most recent call last):
+		>>> 	File "script.py", line 70, in <module>
+		>>> 		print(z)
+		>>> NameError: name 'z' is not defined
+	stexic menq karanq ezrakacnenq vor X-@ hasanelia funkcaiyi nersum bayc z-@ hasaneli chi funkciayic
+	durs.
+		
+		
+	1.5 global operator
+		
+		global u nonlocal operatorner@ miak operatornern en pythonum voronc shnoriv karanq haytararenq mer ANUNNER@.
+		Bayc dranq naxatesvac chen mer popoxakanneri type-@ nshanakelu hamar vonc vor urish lezunerum ayl dranc
+		shnoriv menq uxaki nshanakum enq mer popxakanneri namespace. Mer ANUN-@ global haytarareu hamar petqa uxaki
+		grel ayn global operator-ic heto.
+		
+		Orinak ` 
+		
+		X = 88 # global popoxakan X
+		
+		def func():
+			global X
+			X = 99 # global popoxakan X: global klini hamel funkcaiyic durs
+		
+		func()
+		
+		print(X)
+		
+		>>> 99
+		
+		es depqum erku X-i referanc@ nuyna hamarvum. Bayc ete menq global chsarqenq mer X-@ funkicaiyi nersum
+		u heto uzenanq poxenq iran menq kstananq exception. Et araca nra hamar vorovhetev ete menq uzum enq
+		anenq inch vor << sxal ban>> menq petqa dra hamar grenq avel kod u @nhdanrapes lav praktika chi
+		hamarvum ppoxel global popoxakanner@ inch vor funkciyum, bayc karan linen arandzanahatuk depqer
+		
+		ka hamel urish tarberak stanal global popoxakaner@ funkciayi nersum
+		
+		var = 99
+		
+		
+		def glob2():
+			
+			var = 0 # poxvuma local popoxakan@
+			
+			import thismod # importa anum inqn iran 
+			
+			glob.var += 1 # poxvuma global popoxakan@
+		
+		
+		print(var)
+		
+		>>> 100
+		>>> 99   # erevi importa linum dra hamara erku angam tpum
+		------------------------------------------------------
+		
+		var = 99
+		
+		def glob3():
+			
+			var = 0 # Изменяется локальная переменная
+			
+			import sys # Импорт системной таблицы
+			
+			glob = sys.modules['__main__'] # Получить объект модуля
+			
+			
+			glob.var = 888
+			
+			
+		glob3()
+
+		print(var)
+		
+		>>> 888
+		
+		bayc cenc baner vabshe petq chi ogtagorcel es uxai tarberaka vonc karanq stananq global popoxakan
+		
+	1.6 nonlocal operator
+	
+		nonlocal-@ mez petq kga en jamank erb men kunenanq funkcaiyi mej urish haytrarac funkica 
+		
+		Orinak `
+		
+		def tester(start):
+			state = start 
+			
+			def nerqin_funkcia():
+				state += 1 
+				
+				return state
+				
+			return nerqin_funkcia()
+			
+		print(tester(5))
+		
+		>>> UnboundLocalError: local variable 'state' referenced before assignment
+		
+		es depqum mer nerqin_funkcia-i mej menq uzum enq poxenq mer tester-i namespace-in patkanox popoxakan@
+		dra hamar stanum enq exception.mer nerqin_funkcia-um state-in stanalu hamar petqa uxaki grenq vor inq@
+		nonlocal-a
+		
+		def tester(start):
+			state = start 
+			
+			def nerqin_funkcia():
+				nonlocal state
+				
+				state += 1 
+				
+				return state
+				
+			return nerqin_funkcia()
+			
+		print(tester(5))
+		
+		>>> 6
+		
+		
+2.Rekursiv funkcianer()
+	2.1 karch incha rekursian
+	
+	cragravorman mej rekursia anvanum en erb funkcian kanchum enq funkciayi mej.
+	
+	orinak `
+		def func1(x):
+			print(x)
+			func1(x + 1)
+			
+		func1(1)
+		
+	ete run anenq es kod@ ktesnenq vor python@ tenalov vor rekursian sharunakvuma anverj uremn avtomat kta exception
+	
+	>>>RecursionError: maximum recursion depth exceeded while calling a Python object
+	
+	stexic karanq anenq mer arajin amenakarevor ezrakacutyun@ vor mer rekursiiv funkcian petqa misht unena elq
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
