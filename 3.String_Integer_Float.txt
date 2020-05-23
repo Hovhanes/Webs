@@ -41,6 +41,7 @@
 					  
 	    2.3 Boolean
 	        linuma @ndamen@ erku tesak True u False.iranq  havasar en 1 - i u 0 - i u et aravaca uxaki nra hamar vor haskanali lini
+		stex cuyc tanq vor bool(16),bool(100),bool(0),bool(''),bool('text')
 
 					  HISHENQ VOR CUYC TANQ STRINGI BAZMAPATKUM@
 
