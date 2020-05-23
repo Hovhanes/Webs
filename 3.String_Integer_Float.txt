@@ -6,7 +6,7 @@
 		print(y)
 	1.1 String pahelu hamar menq petqa @ndamen@ mer uzac arjeq@ grenq kam 1 kam 2 hatanoc chakertneri mej, vor interpretator@ haskana vor popoxakan chi.
 	1.2 karanq arden print anenq sax u iranqel gren mer het.(stringer@ irar miacnelu orinaker)
-	1.3 ete uzum enq toxadarc ogdagorcenq petqa text@ vercnenq 3 hat chakerti mej(eakan chi 1 te 2)
+	1.3 ete uzum enq toxadarc ogdagorcenq petqa text@ vercnenq 3 hat chakerti mej(eakan chi 1 te 2) u \n
 	1.4 string format.  orinak name = "Hovlo"            kam orinak senc print(f."Hello,{name}")(3.6 ic heto menak)
 						print("Hello, {}".format(name))
 
