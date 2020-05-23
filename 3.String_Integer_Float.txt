@@ -20,7 +20,7 @@
 	meke mi qani orinakner (gumarum,hanum,random,meci u poqri nshanner u tenc inch hishenq)
 	
 2.default funkcianeri orinakner (String,Integer,Float) hamar arandz bacatrelu te inch en u urduc(kasenq gorciqner kan senc)
-		4.1 String  - 
+		2.1 String  - 
 					  str(55) - funkcian.
 					  'string'.lower () mer tvac text@ sax sarcuma poqratar.
 					  'string'.upper () mer tvac text@ sax sarquma mecatar.
