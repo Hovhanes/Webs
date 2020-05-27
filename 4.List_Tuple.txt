@@ -31,7 +31,7 @@
 			remove('value') - jnjum enq @st mer value - i
 			reverce() - kstananq mer list@ hakarak uxxutyamb
 			sort(reverse=True) - sortavorel list@ @st achman, isk ete reverse havasara True @st nvazman
-
+			["foo", "bar", "baz"].index("bar")
 		2.6 funkcianer
 			sum() - @ndunuma iteracion obyekt@ u veradarcnuma iranc gumar@
 			copy()
