@@ -17,6 +17,9 @@
 
                    stex mer y nuynpes kpoxi ira arjeq@
         1.6 metodner
+	
+	   clear() - jnjuma amboxj dict()-@ 	
+	
           get() - hishumenq vor karanq sovorakan qarakusi pakagcerov vekalenq, bayc dra poxaren ka aveli kayf dzev vekalelu mer valuen, et get() methodna,
                     vorin talis enq mer key@, vor@ chgtnelu jamanak mez veradarcnum a None ayl voch te error.menq karanq nayev tanq iran mer deafaul value-n u erb vor
                     chgtni mer key-@ uremn return kani iran
@@ -31,12 +34,27 @@
 
           update() - erku dict irar miacnelu hamar petqa uxaki 1 in dictic haytararel update() method@ iran vorpes parametr talov erkrord dict@
 
+	  car = {
+		  "brand": "Ford",
+		  "model": "Mustang",
+		  "year": 1964
+		}
+
+		x = car.setdefault("color", "white")
+
+	print(x)
           1.7 listi u dicti hamadrutyun
                voncvor listum ,menq karanaq mer dictum pahenq tarber typer.bayc aveli hachax kirarvox depqerum menq unenum enq lister vorum pahum enq dicter
                vorovhetev tenc mez aveli harmara linum ashxatel
                orinak users_list[{'name':'jorj','age':23},{'name':'james','age':45}].
                es depqum mer listi 0 index-i name@ stanalu hamar karanq senc anenq users_list[0]['name']
 
+	orinakner in-ov 
+	'key' in {'name':'user_name', 'message': 'hello world'}
+	KeyError kta
+	
+	
+	
 	2.nerkayacnenq incha set@.
 	    2.1 set@ dicti nmana uxaki nra mej valuner@ chen pahvum @ keyeri, u nra mej exac valuner@ misht unique en. ira arandznahatkutyunneric mek@ ena vor shat araga
 	    get anum ira valuener@.shat nmana matematikakan hamaxumb/bazmutyn@ u karanq gtnenq dranc hatum@ miavorum@.
