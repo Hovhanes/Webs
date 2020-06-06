@@ -1,1 +1,86 @@
-10.tetev nerkayacnenq incha lambda,u funkciayi parametrer(default, args*, kwargs**)
+1. lambda
+  1.1 baci def instrukciayic menq karanq sarqenq hamel funkciayi object lambda artahaytutyunov:
+  1.2 i tarberutyun def-i verdadcnuma mianqamic arjeq, ayl voch te kapuma anvan het
+      dra hamar shat hachax iranc asum en hamel анонимные (то есть безымянные) функции.
+  1.3 kazmum enq hetevjal kerp
+      lambda argument1, argument2,... argumentN : artahaytutyun vor@ ogtagorcum e argumentner@
+      
+      skzbum grvume lambda voric heto dnum enq argumentner@(nuyn dzevov vonc vor def-i pakagceri mej)
+      u heto grum enq mer funciayo body-in
+  
+  1.4 lambda artahaytutyun@ veradarcnuma chist nuyn funkciayi object@ vor@ vor mez veradarcnuma def instrukcian
+      mi qani tarberutyunov
+      
+      1.4.1 es artahaytuyuna voch te instrukcia, aysinqn menq karanq grenq en texerum vortex vor mez
+            argelvac e ogtagorcel def-@
+            
+            orinak user = {
+                          'name' : lambda:print('run test funkcions')
+                      }
+
+                    user['name']()
+                    
+            bayc chenq karox krel senc
+                    
+                    x = {
+                           'name' : def test():
+                                        print('run test funkcions')
+                        }
+
+                    x['name']()
+        
+        1.4.2 misht veradarcnuma inch vor arjeq
+        
+        1.4.3 i taberutyu def-i lambda-i body-i mej chenq kara grenq orinak if instrukcia(petqa naxatesac linenq minchev et)
+              bayc karanq karch dzev@ grenq
+              lower = (lambda x, y: x if x < y else y)
+              lower(5, 8)
+        
+        1.4.4 def-in petq e partadir tanq anun isk lambda-in che 
+    1.5 karanq nuyn dzev tanq argumentner @st anunneri
+        
+        >>> x = (lambda a=”fee”, b=”fie”, c=”foe”: a + b + c)
+        >>> x(“wee”)
+        
+    1.6 nuynpes uni ira scoper
+        def knights():
+            title = 'Sir'
+            action = (lambda x: title + ' ' + x)
+        return knights
+        
+        act = knights()
+        print(act('robin'))
+        
+     1.7 vor depqerum karanq ogtagorcenq
+         
+         1.7.1  dinamik list karanq orinak grenq
+                L = [lambda x: x**2,
+                    lambda x: x**3,
+                    lambda x: x**4]
+                for f in L:
+                    print(f(2))    # 4, 8, 16
+
+                print(L[0](3)) # 9 
+          
+         1.7.2  nuyn dzevov dict
+                key = 'got'
+                d1 = {'already': (lambda: 2 + 2),
+                      'got': (lambda: 2 * 4),
+                      'one': (lambda: 2 ** 6)}
+                d1[key]() # return ?
+                
+         1.7.3 ogtagorcum enq vorpes funkciayi parametr
+         
+          def test(num=lambda x: x if x > 5 else ''):
+
+              if isinstance(num,int):  
+                  return num * num
+              num = num(6)
+              return num * num 
+
+
+          print(test()) # if parameter not exist, by default return lambda
+         
+        
+        
+        
