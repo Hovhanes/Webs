@@ -1,3 +1,7 @@
+x,y,*z = 1,2,3,4,5,6
+vor minchev es asac chlinenq karanq asenq stex 
+
+
 1. lambda
   1.1 baci def instrukciayic menq karanq sarqenq hamel funkciayi object lambda artahaytutyunov:
   1.2 i tarberutyun def-i verdadcnuma mianqamic arjeq, ayl voch te kapuma anvan het
@@ -82,5 +86,76 @@
           print(test()) # if parameter not exist, by default return lambda
          
         
+2. *args (arguments)
+  2.1 def f(*args): print(args)
+      f(1,2,3,4)
+      stex katarvuma bolor argumentneri sborken mi tuple-i mej
+    
+  2.2 def f(a, *pargs): print(a, pargs)
+      f(1, 2, 3)
+      
+      karanq ogtagorcenq sovorakan argumentneri het
         
-        
+  2.3 karox enq ogtagorcel nayev funkcian kanchelu jamanak
+      def func(a, b, c, d): print(a, b, c, d)
+      
+      args = (1, 2)
+      args += (3, 4)
+      
+      func(*args)
+      
+      stex menq poxancum enq tuple vori elemintneri qanak@ hamapatasxanume @ndunox funkciayi argumentnerin
+  
+  2.4 karanq tanq cankacac iteracvox object
+      func(*'abcd')
+      
+  2.5 stex uxaki khishenq anunnerov argumentreri masin,
+  u kasenq vor stex c argument@ karanq tanq menak anunov voch teposicioayov u hamel *-ic heto menak annuerov karanq tanq
+    def kwonly(a, *b, c):
+         print(a, b, c)    
+  
+3. **kwargs (keywoard arguments)
+  3.1 def f(**args): print(args)
+      f(a=1, b=2)
+      
+      stex vercnuma bolor ayn argumentner@ voronq poxancvum en anunnerov
+      
+  3.2  def f(a, *pargs, **kwargs): print(a, pargs, kwargs)
+       f(1, 2, 3, x=1, y=2)
+       
+  3.3 karox enq ogtagorcel funkcian kanchelu jamanak
+  
+      def func(a, b, c, d): print(a, b, c, d)
+
+      args = {'a': 1, 'b': 2, 'c': 3}
+      args['d'] = 4
+      func(**args)
+      
+      stex poxancum enq dict mer funkcian kanceluc u funkcian @ndunuma mer dicti keyer@ vorpes argumentneri anunner u valuner@
+      vorpes parametrni arjeq
+      
+      ayinqn orinak stex menq error kstananq
+      
+      args = {'a': 1, 'y': 2, 'c': 3}
+      args['d'] = 4
+      func(**args)
+      
+      TypeError: func() got an unexpected keyword argument 'y'
+      
+      vorovhetev poxancum enq y voch te b
+      
+   3.4 karox enq hamadrel sovorakan parametreri het
+       
+       func(*(1, 2), **{'d': 5, 'c': 4})
+       
+       kam senc
+       
+       func(1, *(2, 3), **{'d': 4})
+      
+   3.5  **-ic heto chenq karox tal el argumentner
+     
+   3.6 python 2.* um senc tarberaka exel 
+       apply(func, pargs, kargs)
+       
+       apple() funkcian
+       
