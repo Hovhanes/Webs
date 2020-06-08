@@ -1,3 +1,31 @@
 														Modulner
-11.inch en modulner@,modulneri karevorutyun@ pythoni hamar
-605 ej
+inch en modulner@,modulneri karevorutyun@ pythoni hamar
+
+
+1. modulner@ hamarvum en python-i amenamec hamaxmbvac miavor
+
+2.pythoni standard lib-eric
+
+3. modulneri ashxatanq@ karavarelu hamar kan mi qani exanak
+
+import - tuyl e talis import anox modulnerin(failerin) dostup stanal ayl modulneri
+
+from - tuyl e talis import anox modulnerin  dostup stanal ayl modulneri inch vor hatuk atributneri
+
+? imp.reload - tuyl e talis import anel m0odul@ aranc kangnecnelu interpretator@
+	3.1 import
+	3.1.1 import katrvum e 3 qaylov
+	      1. porcum en gtnel import linox modul@(file-@)
+	      2. kompelacvum en bayt-kod(ete anhrajesta)
+	      3. run en anum modul-i kod@ vorpesszi stexcen obyektner, voronq vor kan moduli mej
+	      
+	      es 3 qayler@ python@ chi anum erkrord angam ayl pahuma obyektner@ hishoxutyan mej ev vercnuma info sys.modules-ic
+	      import sys
+	      #import module
+	      print(len(sys.modules))
+	3.2 search modules
+	    3.2.1 petq chi grel faili tesak@ (.py) u ira path@ c:\\users\desktop\python\script.py
+	3.3 kompelacvum en bayt-kod(ete anhrajesta)
+	    stex stugvuma nax .pyc - i stexcman jamanak@ u .py - i stexcman jamanak@
+	    ete ka tarberutyun uremn petq .py - mej exela popoxutyun u petqa noric kompile ani .pyc-@
+	3.4    
