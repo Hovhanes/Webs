@@ -2,7 +2,7 @@
 inch en modulner@,modulneri karevorutyun@ pythoni hamar
 
 
-1. modulner@ hamarvum en python-i amenamec hamaxmbvac miavor
+1. modulner@ hamarvum en python-i amenamec hamaxmbvac miavor@
 
 2.pythoni standard lib-eric
 
@@ -14,18 +14,38 @@ from - tuyl e talis import anox modulnerin  dostup stanal ayl modulneri inch vor
 
 ? imp.reload - tuyl e talis import anel m0odul@ aranc kangnecnelu interpretator@
 	3.1 import
-	3.1.1 import katrvum e 3 qaylov
+	    3.1.1 importa anum mianqamic amboxj modul@ u moduli anun@ ogtagorcum enq vorpes popoxakan
+	    3.1.2 import katrvum e 3 qaylov
 	      1. porcum en gtnel import linox modul@(file-@)
 	      2. kompelacvum en bayt-kod(ete anhrajesta)
 	      3. run en anum modul-i kod@ vorpesszi stexcen obyektner, voronq vor kan moduli mej
-	      
+
 	      es 3 qayler@ python@ chi anum erkrord angam ayl pahuma obyektner@ hishoxutyan mej ev vercnuma info sys.modules-ic
 	      import sys
 	      #import module
 	      print(len(sys.modules))
-	3.2 search modules
-	    3.2.1 petq chi grel faili tesak@ (.py) u ira path@ c:\\users\desktop\python\script.py
-	3.3 kompelacvum en bayt-kod(ete anhrajesta)
-	    stex stugvuma nax .pyc - i stexcman jamanak@ u .py - i stexcman jamanak@
-	    ete ka tarberutyun uremn petq .py - mej exela popoxutyun u petqa noric kompile ani .pyc-@
-	3.4    
+
+	      1 search modules
+              1. petq chi grel faili tesak@ (.py) u ira path@ c:\\users\desktop\python\script.py
+              2. nax skzbum mana galis sepakan dir-i mej, heto nayuma PYTHONPATH global popoxakan@(ete haytararvaca),
+                  heto python-i liberi dir-eri mej u amenaverjum .pth faileri mej(es mi qich janjala, petqa et faili mej lini
+                  uxaki irar  tak grac pather@, u et fail@ petqa texadrenq @ndex vortex vor python@ installa arac, @ndhanrapes
+                  site-packages dir-i mej)
+              3 sys.path
+                stex havaqvum en bolor qo ayn pather@ voronq menq tvel enq PYTHONPATH popoxakanin u .pth fail-i mej
+                u vor@ vor ogtagorcvuma interpreatori koxmic asyinqn ete menq uzenanq mianqamic kodi mej poxel mer
+                modulneri pather@ menq karanq append anenq sys.path - i mej ayl voch te porcenq tal
+                os.environ['PYTHONPATH'] = 'path to the module'
+
+	      2 kompelacvum en bayt-kod(ete anhrajesta)
+	          stex stugvuma nax .pyc - i stexcman jamanak@ u .py - i stexcman jamanak@
+	          ete ka tarberutyun uremn petq .py - mej exela popoxutyun u petqa noric kompile ani .pyc-@
+
+	      3 run a anum bayt kod@ u karduma kod@ verevic nerqev u handipelov = - in stexcuma moduli attributner
+
+    3.2 from
+        3.2.1 importa anum konkret attribute
+        3.3.1 from * -  importa anum bolor attributner@ u karanq get anenq mianqamic iranc anunov(importi hamemat uxaki mek qayl avela anum
+                        u copy a anum bolor attributner@.aravelutyun@ ena vor heto menq karanq stananq atribut@ miangamic ira anunov voch
+                        te skznum modulin@ heto atributin@ - os.path -> path)
+    3.3 import linuma menak mek angam, ete uzum enq ali import anel petqa reload ogtagorcenq
