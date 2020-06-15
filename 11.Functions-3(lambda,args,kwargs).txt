@@ -157,7 +157,7 @@ vor minchev es asac chlinenq karanq asenq stex
    3.6 python 2.* um senc tarberaka exel 
        apply(func, pargs, kargs)
        
-       apple() funkcian
+       apply() funkcian
        
 Tnayin
 
