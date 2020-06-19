@@ -1,5 +1,34 @@
 '''
 
+    1. iteratorner
+    
+        1.1 for, in, genratorner
+        
+        1.2 __next__ metod unen sax
+            orinak failer@
+            
+            f = open('script1.py') 
+            f.__next__()
+            f.__next__() # verjum exceptiona talu - StopIteration
+            
+            for line in open(‘script1.py’).readlines(): # stex miangamic sax faiL@ karduma vor@ vor lav chi hishoxutyan ekanomayi hamar
+                 print(line.upper(), end=’’)
+                 
+            f = open(‘script1.py’) # es tarberak@ aveli dandax kasxxati qan vor tanq for-in
+            while True:
+                line = f.readline()
+                if not line: break
+                print(line.upper(), end=’’)
+                
+            file = open('db.txt') # next() funkcia - uxaki kanchuma __next__ method@
+            
+            print(next(file))
+            print(next(file))
+            print(file.__next__())
+            print(file.__next__())
+
+
+
     unenq erku tesaki genratorner
     1   funkciayi generatorner
     2.  generatorner artahaytutyunov
