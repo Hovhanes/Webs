@@ -78,7 +78,16 @@
                G = timesfour('spam')
                list(G)
                
-576
+    4.  set-i u dict-i generatorner
+    
+        4.1 {x * x for x in range(10)} #set
+            res = set()
+            for x in range(10): # set0i generator functionov
+                res.add(x * x)
+        
+        4.2 {x: x * x for x in range(10)} #dict
+        
+        
 '''
 
 
