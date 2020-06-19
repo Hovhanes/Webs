@@ -2,33 +2,64 @@
 
     1. iteratorner
     
-        1.1 for, in, genratorner
+        1.1 for, in, genratorner - sranc takic sax obyekti __next__ en kanchum
         
-        1.2 __next__ metod unen sax
+        1.2 dzerqo kanchenq __next__
+            __next__ metod unen sax
             orinak failer@
             
             f = open('script1.py') 
             f.__next__()
             f.__next__() # verjum exceptiona talu - StopIteration
             
-            for line in open(‘script1.py’).readlines(): # stex miangamic sax faiL@ karduma vor@ vor lav chi hishoxutyan ekanomayi hamar
-                 print(line.upper(), end=’’)
+            for line in open(‘script1.py’).readlines(): # stex miangamic sax faiL@ karduma vor@ vor lav chi hishoxutyan  ekanomiayi hamar
+                 print(line.upper(), end=)
                  
-            f = open(‘script1.py’) # es tarberak@ aveli dandax kasxxati qan vor tanq for-in
+            f = open('script1.py') # es tarberak@ aveli dandax kasxxati qan vor tanq for-in
             while True:
                 line = f.readline()
                 if not line: break
-                print(line.upper(), end=’’)
+                print(line.upper(), end='')
                 
+         
             file = open('db.txt') # next() funkcia - uxaki kanchuma __next__ method@
             
             print(next(file))
             print(next(file))
             print(file.__next__())
             print(file.__next__())
-
-
-
+            
+            iter(file) is file # True
+            
+            L = [1, 2, 3]
+            iter(L) is L # False
+            L.__next__() # Error kta
+            
+            I = iter(L) # senc karanq heto iranic kanchenq __next__
+            I.__next__() #
+            
+            # dicti __next__
+            D = {‘a’:1, ‘b’:2, ‘c’:3}
+            I = iter(D)
+            next(I) #  keyerna tpum
+            
+            # nuyn ban@ forna anum uxaki avtomat
+            for key in D:
+                print(key, D[key])
+                
+            # range()
+            R = range(5)
+            I = iter(R)
+            next(I)
+            
+            
+        1.3 lines = f.readlines()
+            lines = [line.rstrip() for line in lines] # miangamic jnjum enq amboxj \n-er@
+            
+            lines = [line.rstrip() for line in open('script1.py')] # senc amen angam kanchum enq file-i __next__ 
+            
+            
+            
     unenq erku tesaki genratorner
     1   funkciayi generatorner
     2.  generatorner artahaytutyunov
