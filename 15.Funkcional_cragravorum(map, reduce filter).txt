@@ -50,7 +50,9 @@
 		for item in map_object:
 			print(item)
 2. reduce
-	2.1 reduce funkcian @ndunuma 3 parametr 
+	2.1 petq e import anel nax functools modulic 
+		reduce funkcian @ndunuma 3 parametr 
+		
 		1. vorpes arajin parametr funkcia
 		2. sequence
 		3. initial(optional)
