@@ -49,7 +49,6 @@
 
 		for item in map_object:
 			print(item)
-        
 2. reduce
 	2.1 reduce funkcian @ndunuma 3 parametr 
 		1. vorpes arajin parametr funkcia
@@ -112,3 +111,17 @@
 
 		result = reduce(lambda x,y: x + y, numbers)
 		print(result)
+3. filter
+	3.1 filter method@ karox enq ogtagorcel mer sequence custom filter@  anelu hamar
+	3.2 @ndunuma erku parametr
+		1. function
+		2. sequence
+	3.3 orinak
+	    def less_than_five(arg):
+	    	return arg < 5
+
+	    sequence = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+            filtered_seq = filter(less_than_five,sequence)
+
+            print(list(filtered_seq))
