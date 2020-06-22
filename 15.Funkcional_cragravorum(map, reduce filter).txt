@@ -125,3 +125,25 @@
             filtered_seq = filter(less_than_five,sequence)
 
             print(list(filtered_seq))
+	    
+	3.4 def find_a(arg):
+ 	    	if arg == 'l':
+			return True
+	    	else:
+			return False
+
+
+	    some_text = 'hello world'
+
+	    filtered_seq = filter(find_a,some_text)
+
+	    print(tuple(filtered_seq))
+	    
+        3.5 lambda
+	    
+	    some_text = 'hello world'
+
+            filtered_seq = filter(lambda x: x == 'l' ,some_text)
+
+            print(tuple(filtered_seq))
+
