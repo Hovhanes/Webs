@@ -1,3 +1,18 @@
+1. Funkciional cragravorum@ cragir grelu ir zdevna arajarkum
+
+2. ka maqur funckia haskacoxutyun, vor@ nshanakuma vor funccian @ndunum e parametr ev veradarcnum nor@
+   cpoxelov iranic durs gnvox arjeqner
+   funkcional cragravorum@ porcuma maximal heru mnal global stasti popoxutyunic
+
+3. kan lezuner vortex nuynisk chka a=3 kam c = a 
+
+4. aravelutyunner@
+   1. modulyar en
+   2. compact en
+   3. hest e test ev debug ane
+
+
+
 1. map
     1.1 map funkcian karanq ogtagorcenq erb vor menq uzum enq inch vor mi funkcia ogtagorcel
         mer iteracvox obyekti itemneri nkatmamb
