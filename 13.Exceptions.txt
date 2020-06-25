@@ -1,3 +1,130 @@
 													Exceptions
 
 12.inch en exceptionner@ u vortex en ogtagorcvum(default exceptionner)
+
+1.	default exceptionner
+	l1 = [1,2,3,4]
+
+	l1[10] # IndexError
+	
+	x = 5 // 0 # ZeroDivisionError
+
+
+
+
+1.  exceptionner@ abrabotka anelu tesakner@
+    
+    1.1 try/except
+        
+        1.1.1   catch-a anum exceptionner@ voronq kara rise arac lini interpreatator@ kam mer custome gracner@
+		
+		1.1.2	karox enq catch anel mer uzac exception@
+				
+				l1 = [1,2,3,4]
+				l1[10] # errora talu
+				
+				print('Hello') # stex chi hasnelu
+				#################################
+				try:
+					l1 = [1,2,3,4]
+					l1[10]
+				except IndexError:
+					print('you have error')
+					
+				print('stex eli ashxatuma')
+	
+		1.1.3	
+				1. 	karanq unenanq cankacac qanakutyamb except
+				
+				####################################################
+				try:
+					pass
+				except IndexError:
+					print('catch IndexError')
+				except ZeroDivisionError:
+					print('catch ZeroDivisionError')
+					
+				########################################
+				try:
+					l1 = []
+					l1[5]
+				except (IndexError, ZeroDivisionError):
+					print('catch errors')					
+				#######################################
+				try:
+					5 // 0
+					l1 = []
+					l1[5]
+				except (IndexError, ZeroDivisionError) as e:
+					print(e) # error message
+		
+		1.1.4 	karanq catch anel cankacac exception
+				try:
+					5 // 0
+					l1 = []
+					l1[5]
+				except:
+					print('error here')
+		
+		1.1.4 	try/except/else
+		
+				1.	else ashxatuma erb vor try-i meji kod@ ashxatuma aranc exceptionneri
+				
+				try:
+					l1 = [1,2,3,4]
+					l1[10]
+				except IndexError:
+					print('you have error')
+				else:
+					print('if we have no exception')
+    
+	1.2 try/finally
+    
+        1.2.1   kataruma vejnakan gorcoxutyunner ankax nranic exception stacel enq te che	
+		
+		1.2.2	# exception kstanank bayc print el kani
+				try:
+					l1 = [1,2,3,4]
+					l1[10]
+				finally:
+					print('after error') # stex kmtni
+				print('after try?') # stex ci mtni
+    
+    1.3 raise
+        
+        1.3.1   talisa hnaravorutyun exception talu me uzac texerum
+		
+		1.3.1	try:
+					raise IndexError # raised the error manually
+				except IndexError:
+					print('got exception')
+    
+    1.4 assert
+        
+        1.4.1   talisa hnaravorutyun exception talu me uzac texerum inch vor hatuk paymannerum
+				
+				x = 1  
+				assert x < 0,'x must be negative'
+				
+				petq chi ogtagorcel default exceptionner@ catch anelu hamar, ayl custome depqeri hamara
+    
+	1.5 with/as
+
+        1.5.1   context manegers
+		
+2. 	nested try/except
+	try:
+		l1 = [1,2,6]
+		l1.append(5)
+		try:
+			raise ZeroDivisionError()
+		except:
+			print('nested error')
+		
+		print(55)
+
+	except:
+		print('error here')
+	else:
+		print('if we don\'t have exception')
+	
