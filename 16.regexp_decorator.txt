@@ -1,1 +1,1 @@
-15.Funkcional cragravorman hamar gorciqner(map,reduce,filter....)
+16.
