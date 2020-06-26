@@ -1,1 +1,118 @@
-16.
+# reg exper@ ogtagorcvum en voch miayn creagravorman lezuneri mej
+# standart en u bolor texer@ kirarvum en nuyn dzevov
+
+import re
+
+## shablona vor kirarvuma stringi hamar
+
+
+## match metodov stugum enq mer string@ sksvuma mer tvac reg expov te che
+#reg_exp = 't'
+#email = 'test@gmail.com'
+
+
+#match = re.match(reg_exp, email)
+#print(match) # ktpi None ete chi sksvum mer reg expov, isk ete skzvuma kveradarcni re match object
+#print(match.group(0)) # 0-n positiona
+
+## match@ anharamara mi qich u pntruma menak stringi skzbum
+########################################
+
+## aveli harmara search metod@
+
+#reg_exp = 'a'
+#email = 'atest@gmail.com'
+#match = re.search(reg_exp, email)
+#print(match.group(0)) #kveradarcni mer arajin handipac a-n
+#print(match.group(0), match.start()) # start metod@ cuyca talis vor indexova sksvum
+#print(match.group(0), match.end()) # end metod@ cuyca tali vortexova prcnum
+
+## stex karain find-ov el gtneinq, bayc mez karoxa petq lini gtnel bolor a tarer@ orinak
+## dra hamar karanq ogtvenq findall -ic
+#################################################
+#reg_exp = 'a'
+#email = 'atest@gmail.com'
+#match = re.findall(reg_exp, email)
+#print(match) # returna anum list
+## registric kaxvacutyun uni, aysinqn ete mecatar A unenanq chi gtni
+
+#email = 'testA@gmail.com' # mecatar A chi gtnelu
+#match = re.findall(reg_exp, email)
+#print(match) # returna anum list
+
+## mecatar u poqratar@ ignor anelu hamar karanq tanq errord parametr
+#reg_exp = 'a'
+#email = 'testA@gmail.com'
+#match = re.findall(reg_exp, email, re.I) ## re.I -> ignore
+#print(match)
+#######################################################
+
+#split = re.split('-', 'a-b-c-d-e')
+#print(split) # stanum enq list bajanac @st mer tvac symvoli
+## karanq qanak tanq mer symvolneri
+
+#split = re.split('-', 'a-b-c-d-e', maxsplit=2)
+#print(split) # stanum enq list bajanac @st mer tvac symvoli
+###################################################################
+## replace karanq anenq mer tvac reg_exp ov
+#replace_with_regexp = re.subn('H', 'k', 'Hovlo')
+#print(replace_with_regexp) 
+
+###############################################################
+
+## sksenq nranic vor reg exp-@ urish lezua u uni hatuk operatorne
+#some_string = 'Hello world, my.  name is Vardan, my firtname. is Vardanyan'
+#find_all = re.findall('.', some_string) # . (ket@) nshanakuma volor simvolner@(baci \n ic)
+#print(find_all)
+## bayc ete mer stringum asen lini . u menq uzenanq gtnel henc et keter@ petqa reg expum dnena \ 
+#some_string = 'Hello world, my.  name is Vardan, my firtname. is Vardanyan'
+#find_all = re.findall('\.', some_string) # 
+#print(find_all)
+
+## bayc ashxateq misht stringi skzbum dnel r vor python@ handle chani strin@ ira hamar ayl reg expi hamar
+## orinak mez petqa gtnel bolor tarer@
+#some_string = 'Hello world, my.  name is Vardan my firtname. is Vardanyan'
+#find_all = re.findall(r'\w', some_string) # 
+#print(find_all)
+###################################################################
+some_string = 'Hello world, my.  name is Vardan my firtname. is Vardanyan, I am 18 years old'
+find_all = re.findall(r'is', some_string) # stex gtnuma uxaki bol is sub stringer@ 
+find_all = re.findall(r'[is]', some_string) # isk [] mej gracov porcum enq gtnel kam i kam s 
+find_all = re.findall(r'[^is]', some_string) # ^ nshanakuma not, aysinqn bolor tarer@ baci i-ic u s-ic
+find_all = re.findall(r'[a-z]', some_string) # bolor poqratar tarer@  
+find_all = re.findall(r'[A-Z]', some_string) # bolor mecatar tarer@  
+find_all = re.findall(r'[a-zA-Z]', some_string) # bolor tarer@  
+find_all = re.findall(r'[0-9]', some_string) # bolor tver@  
+find_all = re.findall(r'\d', some_string) # bolor tver@  
+find_all = re.findall(r'[a-zA-Z0-9]', some_string) # bolor tver@ u tarer@
+find_all = re.findall(r'\w{1,}', some_string) # vercnum enq en tareri hajordakanutyunner@ voronq unenq 1-ic avel erkarutyun
+find_all = re.findall(r'\w{3}', some_string) # bajanum enq @st 3 taranoc symvolneri (Hel, lo chi veradarcnum vorovhetev 3 hat chi)
+find_all = re.findall(r'\w{3} ', some_string) # bajanum enq @st 3 taranoc voric heto space ka)
+find_all = re.findall(r'\w{0,}', some_string) # vercnum enq en tareri hajordakanutyunner@ voronq unenq 0-ic avel erkarutyun(stex spacernela vercnum)
+find_all = re.findall(r'\w+', some_string) # karch karanq dnenq + (havasara sran {1,} )
+find_all = re.findall(r'\w*', some_string) # karch karanq dnenq * (havasara sran {0,} )
+find_all = re.findall(r'\w?', some_string) # karch karanq dnenq * (havasara sran {0,1} 0 kam 1)
+find_all = re.findall(r'^\w+', some_string) # ^ stex chi nshanaku not (menak [] nersum), ayl nshanakuma stringi skzbum
+find_all = re.findall(r'\w+$', some_string) # $ stringi verjum
+## \w anuma nuyn ban@ inch [a-zA-Z0-9]
+#print(find_all)
+
+## gtnum enq date-er@
+string = '12-2583 tyu 02-28-2020 asd 8-8-9 1-12-2019 oij 12-2-1997'
+f = re.findall(r'\d{1,2}-\d{1,2}-\d{4}', string)
+f = re.findall(r'\d{1,2}-\d{1,2}-(\d{4})', string) # pakagcerov vercnum enq mer arden gtac texti inch vor hatvac
+
+print(f)
+
+
+
+
+
+
+
+
+
+
+
+
+
