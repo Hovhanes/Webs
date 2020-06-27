@@ -1,3 +1,98 @@
+1  decorator
+    1.1 decorator@ uxaki funkciaya vor@ @ndunuma vorpes parametr urish funkcia
+        ev avelacnuma ira logikayin evs mi shert.
+
+    1.2 decoratorner@  funkcianeri karavarelu mijoc en
+        orinak sovorakan  decorator
+
+        def custom_decorator(func):
+            print('from my decorator')
+            return func
+
+        def login(name):
+            print('from login function')
+
+            users = ["Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"]
+
+            if name in users:
+                print('Success login')
+            else:
+                print('User ' + name + ' is not exist')
+
+
+        #login = custom_decorator(login)
+        #login('Vardan')
+    1.3 nuyn bannna inch vor senc anenq
+        def custom_decorator(func):
+            print('from my decorator')
+            return func
+
+        @custom_decorator
+        def login(name):
+            print('from login function')
+
+            users = ["Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"]
+
+            if name in users:
+                print('Success login')
+            else:
+                print('User ' + name + ' is not exist')
+
+        login('Vardan')
+
+
+    1.4 mi qani dekoratorner
+
+        def second_decorator(func):
+            print('second decorator')
+            return func
+
+
+        def custom_decorator(func):
+            print('from my decorator')
+            return func
+
+        @second_decorator
+        @custom_decorator
+        def login(name):
+            print('from login function')
+
+            users = ["Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"]
+
+            if name in users:
+                print('Success login')
+            else:
+                print('User ' + name + ' is not exist')
+
+        login('Vardan')
+
+    1.5 decoratorneri argumentner@
+        def custom_decorator(*args):
+           print(sum(args),'from decorator before wrapping')
+           def wrapper(function):
+               print('from my decorator')
+               return function
+
+           return wrapper
+
+        @custom_decorator(1, 2, 3)
+        def login(name):
+           print('from login function')
+
+           users = ["Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"]
+
+           if name in users:
+               print('Success login')
+           else:
+               print('User ' + name + ' is not exist')
+
+        login('Vardan')
+
+
+
+
+
+2. regular expressions
 # reg exper@ ogtagorcvum en voch miayn creagravorman lezuneri mej
 # standart en u bolor texer@ kirarvum en nuyn dzevov
 
