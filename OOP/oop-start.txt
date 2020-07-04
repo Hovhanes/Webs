@@ -1,0 +1,70 @@
+1. Class and OOP (intro)
+	1.1 polymorphism, encapsulation, inheritance
+	1.2 sovorakan classi orinakner, attributner, metodner
+	1.2 @ndhanur (p.791)
+	
+2. class special attributes, __init__
+	2.1 class Instruction (p.769)
+	2.2 class like objects (p.769), (p.861)
+	2.3 new stle class (p.869)
+	2.4 metods (static metods)(p.772) (p.842)
+	2.5 class attributes and object attributes
+	2.6 inch xndirner karan arajanan classneri het ashxatelu jamanak (p.901)
+
+3. inheritance
+	3.1 inheritance  (p.775), (p.830 design pattern-eri nakardakov), (p. 867 data typeri makardakov)
+	3.2 classneri annuner (chist parent classi anun) (p.755)
+	3.3 super class __init__ (p.774)
+	3.4 abstract super class (p.778)
+	3.5 inheritance-i hajordakanutyn@ (p.903)
+
+4. Class namespace
+	4.1 Class namespace (p.781)
+	4.2 dir(), __dict__(p.785)
+	4.3 __doc__ for documnetation (p.790)
+	
+5. python operator overloading (Перегрузка операторов)
+	5.2 intro, and metods (p.795)
+	5.3 __repr__ and __str__ (inchpes karch nerkayacnel objectnerin)(p.812)(p.850)
+	5.4 __getitem__ and __setitem__ (p.797), (p.809)
+	5.5 __getattribute__ (p.886), 
+	5.6 __getitem__ for slice and sequuance(p.798 - p.801)
+	5.7 __iter__ and __next__ (p.802)
+	5.8 __contains__, __iter__, __getitem__ (es ereq mijocner@ vorpes item gtnelu mijoc)(p.807)
+	5.9 __radd__ and __iadd__ (sovorakan gumarum ev miangamic gumarum u veragrum +=) (p.816)
+	5.10 __it__ and __gt__ (meci u poqri operatorner +=) (p.816)
+	5.11 __bool__ and __len__ (meci u poqri operatorner +=) (p.816)
+	5.12 __call__ (kanchel inchpes funkcia) (p.816)
+	5.13 __del__ (jnjel object@) (p.824)
+
+6. <<private>> attributes in python
+	6.1 pythonum etqanel @ndunvac chi(p.1142)
+	6.2 class <<private>> attribues  (p.811) (p.839)
+	6.3 __slots__  (attributnerin dostup talu hamar)(p.880)
+	6.4 property() function
+	6.5 __X (p.1136)
+	 
+
+8. context menegers (p.950)
+
+9. exceptions with class (p. 956)
+
+
+10. attribute management (descriptors)(p. 1043)
+	10.1 ___getattr__ and __getattribute__ (p. 1043), (p.1066)
+	10.2 descriptors (p. 1050)
+	
+
+11 decorators(p. 1087)
+	11.1 function decorator(p. 1090), (p.1100 orinakner vonc karanq tesneneq kanchac funkcianeri qanak@)
+	11.2 function decorators (inch xndirner karan arajanan) (p.1106)
+	11.3 class decorators(p.1094)
+	11.4 decorator for metods(p.1094)
+	11.5 @singleton (by decorator)- ?(p.1117)
+
+12. metaclass (p.1160)
+	12.1 intro
+	12.2 metaclass vs decorator(p.1166), (p.1182), (p.1190)
+	12.3 type class(p.1168)
+	12.4 how to create metaclasses (p.1172)
+	
