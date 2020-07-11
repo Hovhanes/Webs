@@ -2,19 +2,19 @@
 	1.1 polymorphism, encapsulation, inheritance
 	1.2 sovorakan classi orinakner, attributner, metodner
 	1.2 @ndhanur (p.791)
-	
-2. class special attributes, __init__
 	2.1 class Instruction (p.769)
 	2.2 class like objects (p.769), (p.861)
 	2.3 new stle class (p.869)
-	2.4 metods (static metods)(p.772) (p.842)
-	2.5 class attributes and object attributes
 	2.6 inch xndirner karan arajanan classneri het ashxatelu jamanak (p.901)
 
-3. inheritance
+2. inheritance
+	2.4 metods (static metods)(p.772) (p.842)
+	2.5 class attributes and object attributes
 	3.1 inheritance  (p.775), (p.830 design pattern-eri nakardakov), (p. 867 data typeri makardakov)
 	3.2 classneri annuner (chist parent classi anun) (p.755)
 	3.3 super class __init__ (p.774)
+
+3. Abstract class
 	3.4 abstract super class (p.778)
 	3.5 inheritance-i hajordakanutyn@ (p.903)
 
