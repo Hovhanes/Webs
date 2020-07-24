@@ -31,7 +31,7 @@
 	5.6 __getitem__ for slice and sequuance(p.798 - p.801)
 	5.7 __iter__ and __next__ (p.802)
 	5.8 __contains__, __iter__, __getitem__ (es ereq mijocner@ vorpes item gtnelu mijoc)(p.807)
-	5.9 __radd__ and __iadd__ (sovorakan gumarum ev miangamic gumarum u veragrum +=) (p.814)
+	5.9 __add__ and __radd__ and __iadd__ (sovorakan gumarum ev miangamic gumarum u veragrum +=) (p.814)
 	5.10 __it__ and __gt__ (meci u poqri operatorner +=) (p.816)
 	5.11 __bool__ and __len__ (meci u poqri operatorner +=) (p.821)
 	5.12 __call__ (kanchel inchpes funkcia) (p.816)
