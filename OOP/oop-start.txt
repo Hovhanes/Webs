@@ -41,7 +41,7 @@
 	6.1 pythonum etqanel @ndunvac chi(p.1142)
 	6.2 class <<private>> attribues  (p.811) (p.839)
 	6.3 __slots__  (attributnerin dostup talu hamar)(p.880)
-	6.4 property() function
+	6.4 property() function(p.1045)
 	6.5 __X (p.1136)
 	 
 
