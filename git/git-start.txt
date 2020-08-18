@@ -1,0 +1,54 @@
+----- GIT -----
+
+***** Git Chapters *****
+
+1.	Verision Control Systems Intro
+
+2.	Git Intro
+
+3.	Installing Git 
+
+
+4.	Git Config
+
+
+5.	Local Basics
+
+
+6.	Branching
+	
+	6.1	local dev and master
+	6.2 merge
+	
+7.	Remote Basics
+
+	7.1 GitHub Regsitration
+	7.2	GitHub PR
+	7.3	SSH Auth
+
+----- ADVENCED GIT -----
+
+1.	History Details
+2.	Commands
+3.	Git Flou
+4.	Many Remotes
+5.	Smart Git
+
+
+----- GIT COMMANDS -----
+
+
+4.	git clone
+
+
+6.	git add
+7.	git diff
+8.	git commit
+5.	git status
+9.	git remove file
+
+10.	git commit history
+11.	git reset
+12.	git checkout
+13.	git fetch
+	
