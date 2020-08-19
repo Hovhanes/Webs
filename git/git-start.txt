@@ -51,4 +51,14 @@
 11.	git reset
 12.	git checkout
 13.	git fetch
-	
+14.	git remote add pb https://github.com/paulboone/ticgit(page 50)
+15.	git push
+16.	git tag
+17	(Git Aliases) git config --global alias.unstage 'reset HEAD --'
+18.	git branch
+19.	git merge (Conflicts - page 74)
+20.	git pull
+21.	git rebase
+
+----- GENERATE SSH -----
+page - 110
