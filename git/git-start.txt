@@ -25,6 +25,12 @@
 	
 	Third Generation
 	Git
+        Mercurial
+        BitKeeper
+        Darcs (Darcs Advanced Revision Control System)
+        Monotone
+        Bazaar
+        Fossil
 	
 2.	Git Intro
 	
