@@ -52,6 +52,12 @@
 	2.1 Git Config
 	
 	2.2 Local Basics
+	
+	2.3 Commands
+	    git add
+	    git commit
+	    git status
+	    git commit history
 
 3.	Branching
 	
@@ -79,14 +85,13 @@
 4.	git clone
 
 
-6.	git add
+6.	
 7.	git diff
-8.	git commit
-5.	git status
+8.	
 9.	git remove file
 	git stash
 
-10.	git commit history
+10.	
 11.	git reset
 12.	git checkout
 13.	git fetch
