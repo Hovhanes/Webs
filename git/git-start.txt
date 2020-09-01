@@ -47,9 +47,8 @@
 	хранит все в своей базе данных не по имени файла, а по хэш-значению его содержимого.
 	
 	1.5 Installing Git
-2.	 
 
-	2.1 Git Config
+2.	2.1 Git Config
 	
 	2.2 Local Basics
 	
@@ -58,17 +57,27 @@
 	    git commit
 	    git status
 	    git commit history
+	    git checkout
 
-3.	Branching
+3.	Local basics 2 
 	
-	3.1 local dev and master
-	3.2 merge
-	
-4.	Remote Basics
+	3.1 Commands
+	git diff
+	git rm file_path
+	git rm --cached file_path
+	git reset "hash|HEAD"
+	git checkout file_path (staged files)
 
-	4.1 GitHub Regsitration
-	4.2	GitHub PR
-	4.3	SSH Auth
+4.	Branching
+	
+	4.1 local dev and master
+	4.2 merge
+	
+5.	Remote Basics
+
+	5.1 GitHub Regsitration
+	5.2	GitHub PR
+	5.3	SSH Auth
 
 ----- ADVENCED GIT -----
 
@@ -82,28 +91,18 @@
 ----- GIT COMMANDS -----
 
 
-4.	git clone
-
-
-6.	
-7.	git diff
-8.	
-9.	git remove file
-	git stash
-
-10.	
-11.	git reset
-12.	git checkout
-13.	git fetch
-14.	git remote add pb https://github.com/paulboone/ticgit(page 50)
-15.	git push
-16.	git tag
-17	(Git Aliases) git config --global alias.unstage 'reset HEAD --'
-18.	git branch
-19.	git merge (Conflicts - page 74)
-20.	git pull
-21.	git rebase
-22.	git cherry-pick(page 160)
+1.	git clone
+2.	git stash
+3.	git fetch
+4.	git remote add pb https://github.com/paulboone/ticgit(page 50)
+5.	git push
+6.	git tag
+7	(Git Aliases) git config --global alias.unstage 'reset HEAD --'
+8.	git branch
+9.	git merge (Conflicts - page 74)
+10.	git pull
+11.	git rebase
+12.	git cherry-pick(page 160)
 
 ----- GENERATE SSH -----
 page - 110
