@@ -86,7 +86,7 @@
 3.	Git Flou
 4.	Many Remotes
 5.	Smart Git
-
+6.	git commit --amend
 
 ----- GIT COMMANDS -----
 
