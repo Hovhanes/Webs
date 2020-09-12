@@ -110,15 +110,28 @@
 6.	Remote Basics
 	
 	6.1 GitHub Regsitration
-	6.2	GitHub PR
-	6.3	SSH Auth
-	
-	6.4. Commands
 	git clone
 	git fetch
 	git push
 	git pull
-	git merge (Conflicts - page 74)
+
+7.	Remote Basics 2
+	7.2	GitHub PR
+	7.3	SSH Auth
+
+	7.4. Commands
+	
+	Check ssh
+	ls -al ~/.ssh
+
+	Genrate ssh
+
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+	add ssh to agent
+
+	eval "$(ssh-agent -s)"
+	
 	
 ----- ADVENCED GIT -----
 
