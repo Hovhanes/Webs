@@ -118,8 +118,9 @@
 7.	Remote Basics 2
 	7.2	GitHub PR
 	7.3	SSH Auth
+	7.4	Many remote
 
-	7.4. Commands
+	7.5. Commands
 	
 	Check ssh
 	ls -al ~/.ssh
@@ -132,6 +133,9 @@
 
 	eval "$(ssh-agent -s)"
 	
+	check ssh connect
+	
+	ssh -T git@github.com
 	
 ----- ADVENCED GIT -----
 
