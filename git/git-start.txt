@@ -118,10 +118,10 @@
 7.	Remote Basics 2
 	7.2	GitHub PR
 	7.3	SSH Auth
-	7.4	Many remote
+	7.4	Many Remotes
 
 	7.5. Commands
-	
+	git remote(add, rm, rename)
 	Check ssh
 	ls -al ~/.ssh
 
@@ -139,20 +139,24 @@
 	
 ----- ADVENCED GIT -----
 
-1.	History Details
-2.	Commands
-3.	Git Flou
-4.	Many Remotes
-5.	Smart Git
-6.	git commit --amend
-7.      git remote(add, rm, rename)
+8.   Advenced 1
+
+     git commit --amend
+     History Details
+     (Git Aliases) git config --global alias.unstage 'reset HEAD --'
+     pretty show
+	
+
+
+1.	Git Flou	
+2.	Smart Git
+   
 ----- GIT COMMANDS -----
 
 
 
-1	(Git Aliases) git config --global alias.unstage 'reset HEAD --'
-2.	git rebase
-3.	git cherry-pick(page 160)
-
------ GENERATE SSH -----
-page - 110
+1.	git rebase
+2.	git cherry-pick(page 160)
+3.	squash commit
+4.	how work git with big and small files?
+5.	how git compare files?
