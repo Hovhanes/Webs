@@ -142,6 +142,7 @@
 8.   Advenced 1
 
      git commit --amend
+     git commit --amend --no-edit
      History Details
      (Git Aliases) git config --global alias.unstage 'reset HEAD --'
      pretty show
