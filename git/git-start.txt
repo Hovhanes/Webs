@@ -144,8 +144,11 @@
      git commit --amend
      git commit --amend --no-edit
      History Details
+     ^ - parent (HEAD^ is equal to HEAD^1)
      (Git Aliases) git config --global alias.unstage 'reset HEAD --'
      pretty show
+     git log --graph --oneline
+
 	
 
 
