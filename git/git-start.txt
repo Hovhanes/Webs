@@ -167,6 +167,7 @@
      %ae - author email
      %B - commit message
      %n - new line
+     %cd - date
      
      git log --pretty=oneline - mi toxova cuyc talis
      git log --graph --oneline
