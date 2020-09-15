@@ -144,7 +144,10 @@
      git commit --amend
      git commit --amend --no-edit
      History Details
-     ^ - parent (HEAD^ is equal to HEAD^1)
+     ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
+     ~ - HEAD~2 (back two steps in HEAD line)
+     git show master@{yesterday}
+     git show HEAD@{2.months.ago}
      (Git Aliases) git config --global alias.unstage 'reset HEAD --'
      pretty show
      git log --graph --oneline
