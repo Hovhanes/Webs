@@ -143,13 +143,32 @@
 
      git commit --amend
      git commit --amend --no-edit
+     
+     
      History Details
      ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
      ~ - HEAD~2 (back two steps in HEAD line)
+     HEAD~ and HEAD^ are equivalent.
+     The difference becomes apparent when you specify a number. HEAD~2 means “the first parent of the first parent,” or “the grandparent”
+      
      git show master@{yesterday}
      git show HEAD@{2.months.ago}
+    
+     
      (Git Aliases) git config --global alias.unstage 'reset HEAD --'
+     
+     
      pretty show
+     git log --pretty=format:'%H %h %an %ae' - formatov voroshvuma te inch info petqa cuyc ta
+     
+     %H - hash
+     %h - short hash
+     %an - author name
+     %ae - author email
+     %B - commit message
+     %n - new line
+     
+     git log --pretty=oneline - mi toxova cuyc talis
      git log --graph --oneline
 
 	
