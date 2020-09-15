@@ -146,6 +146,8 @@
      
      
      History Details
+     git log -2 - cuyca talis verjin erku loger@ 
+     
      ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
      ~ - HEAD~2 (back two steps in HEAD line)
      HEAD~ and HEAD^ are equivalent.
