@@ -146,9 +146,11 @@
      
      
      History Details
-     git log -2 - cuyca talis verjin erku loger@
-     git log --author="John" - es el de jogi ara inca cuyc talu :))
      
+     git log -2 - cuyca talis verjin erku loger@
+     git log --author="John" - es el de pti joges ara inca cuyc talu :))
+     git log --grep='lang fix'
+
      ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
      ~ - HEAD~2 (back two steps in HEAD line)
      HEAD~ and HEAD^ are equivalent.
