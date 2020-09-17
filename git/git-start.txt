@@ -53,11 +53,11 @@
 	2.2 Local Basics
 	
 	2.3 Commands
-	    git add
-	    git commit
-	    git status
-	    git commit history
-	    git checkout
+	git add
+        git commit
+        git status
+        git commit history
+        git checkout
 
 3.	Local basics 2 
 	
@@ -125,7 +125,7 @@
 	Check ssh
 	ls -al ~/.ssh
 
-	Genrate ssh
+	7.6 Genrate ssh
 
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
