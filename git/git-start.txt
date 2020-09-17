@@ -139,11 +139,30 @@
 	
 ----- ADVENCED GIT -----
 
-8.   Advenced 1
-
+8.   ammend commit, alias, git GUI
+     
+     8.1 ammend commit
+     
+     git commit -a
+     git commit --am
+     git commit --am "commit message"
      git commit --amend
      git commit --amend --no-edit
      
+     8.2 git alias
+     
+     git config --global alias.co checkout
+     git config --global alias.ci commit
+     git config --global alias.st status
+     git config --global alias.br branch
+     git config --local alias.sc '!git checkout master && git status'
+     
+     8.3 git GUI
+     
+     SmartGit, sourcetree, Jetbrains git gui
+     compare files
+     rollback
+     commit
      
      History Details
      
@@ -158,11 +177,8 @@
       
      git show master@{yesterday}
      git show HEAD@{2.months.ago}
-    
-     
-     (Git Aliases) git config --global alias.unstage 'reset HEAD --'
-     
-     
+   
+      
      pretty show
      git log --pretty=format:'%H %h %an %ae' - formatov voroshvuma te inch info petqa cuyc ta
      
@@ -181,7 +197,7 @@
 
 
 1.	Git Flou	
-2.	Smart Git
+
    
 ----- GIT COMMANDS -----
 
