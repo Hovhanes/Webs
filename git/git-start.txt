@@ -163,7 +163,10 @@
      compare files
      rollback
      commit
-     
+
+
+9.   Git Flow
+
      History Details
      
      git log -2 - cuyca talis verjin erku loger@
@@ -196,7 +199,7 @@
 	
 
 
-1.	Git Flou	
+
 
    
 ----- GIT COMMANDS -----
