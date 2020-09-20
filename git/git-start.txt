@@ -191,7 +191,7 @@
      git log --pretty=oneline
      git log --graph --oneline
      
-     
+     10.4. how work git with big and small files?
 11.     
      ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
      ~ - HEAD~2 (back two steps in HEAD line)
@@ -199,21 +199,11 @@
      The difference becomes apparent when you specify a number. HEAD~2 means “the first parent of the first parent,” or “the grandparent”
       
      
-      
-     
-
-	
-
-
-
-
-   
------ GIT COMMANDS -----
 
 
 
 1.	git rebase
 2.	git cherry-pick(page 160)
 3.	squash commit
-4.	how work git with big and small files?
+
 5.	how git compare files?
