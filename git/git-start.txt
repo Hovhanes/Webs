@@ -25,10 +25,16 @@
 	
 	Third Generation
 	Git
+        Mercurial
+        BitKeeper
+        Darcs (Darcs Advanced Revision Control System)
+        Monotone
+        Bazaar
+        Fossil
 	
-2.	Git Intro
+	1.4 Git Intro
 	
-	2.1 Все в Git перед сохранением проверяется контрольной суммой, а затем на нее ссылается эта контрольная сумма. это
+	Все в Git перед сохранением проверяется контрольной суммой, а затем на нее ссылается эта контрольная сумма. это
 	означает, что невозможно изменить содержимое любого файла или каталога без ведома Git.
 	Эта функциональность встроена в Git на самых низких уровнях и является неотъемлемой частью его философии. Вы не можете проиграть
 	информация в пути или повреждение файла без возможности обнаружения Git.
@@ -39,61 +45,169 @@
 	24b9da6552252987aa493b52f8696cd6d3b00373
 	Вы будете видеть эти хеш-значения повсюду в Git, потому что он их очень много использует. Фактически, Git
 	хранит все в своей базе данных не по имени файла, а по хэш-значению его содержимого.
-3.	Installing Git 
-
-
-4.	Git Config
-
-
-5.	Local Basics
-
-
-6.	Branching
 	
-	6.1	local dev and master
-	6.2 merge
-	
-7.	Remote Basics
+	1.5 Installing Git
 
-	7.1 GitHub Regsitration
+2.	2.1 Git Config
+	
+	2.2 Local Basics
+	
+	2.3 Commands
+	git add
+        git commit
+        git status
+        git commit history
+        git checkout
+
+3.	Local basics 2 
+	
+	3.1 Commands
+	git diff
+	git rm file_path
+	git rm --cached file_path
+	git reset "hash|HEAD"
+	git checkout file_path (staged files)
+
+4.	Branching
+	
+	4.1 local dev and master
+	
+	Commands
+	Branching
+	
+	git branch new_branch
+	git checkout new_branch
+	git checkout -b new_branch
+	git diff branch_name1..branch_name2
+	
+	Git stash
+	
+	git stash 	
+	git stash list
+	git stash pop | apply
+	git stash clear
+	
+	Git tag
+	git tag tag_name
+	git tag -a v1.3
+	git tag -a v1.3 -m "my version 1.3"
+	git tag
+	git tag -a -f v1.3 hash
+	git tag -d v1
+	
+	
+5.      Merge and conflicts
+	
+	5.1 merge  
+	
+	5.2 conflict resolution
+	
+	Commands
+	
+	git merge < branch name >
+	
+	
+6.	Remote Basics
+	
+	6.1 GitHub Regsitration
+	git clone
+	git fetch
+	git push
+	git pull
+
+7.	Remote Basics 2
 	7.2	GitHub PR
 	7.3	SSH Auth
+	7.4	Many Remotes
 
+	7.5. Commands
+	git remote(add, rm, rename)
+	Check ssh
+	ls -al ~/.ssh
+
+	7.6 Genrate ssh
+
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+	add ssh to agent
+
+	eval "$(ssh-agent -s)"
+	
+	check ssh connect
+	
+	ssh -T git@github.com
+	
 ----- ADVENCED GIT -----
 
-1.	History Details
-2.	Commands
-3.	Git Flou
-4.	Many Remotes
-5.	Smart Git
+8.   ammend commit, alias, git GUI
+     
+     8.1 ammend commit
+     
+     git commit -a
+     git commit --am
+     git commit --am "commit message"
+     git commit --amend
+     git commit --amend --no-edit
+     
+     8.2 git alias
+     
+     git config --global alias.co checkout
+     git config --global alias.ci commit
+     git config --global alias.st status
+     git config --global alias.br branch
+     git config --local alias.sc '!git checkout master && git status'
+     
+     8.3 git GUI
+     
+     SmartGit, sourcetree, Jetbrains git gui
+     compare files
+     rollback
+     commit
 
 
------ GIT COMMANDS -----
+9.   Git Flow
+
+10.  History Details
+
+     10.1 Log Filter
+     git log -2
+     git log --author="John"
+     git log --grep='lang fix'
+     git log master@{yesterday}
+     git log HEAD@{2.months.ago}
+     
+     10.2 Git Log Pretty Show
+     
+     git log --pretty=format:'%H %h %an %ae' - formatov voroshvuma te inch info petqa cuyc ta
+     
+     %H - hash
+     %h - short hash
+     %an - author name
+     %ae - author email
+     %B - commit message
+     %n - new line
+     %cd - date
+     
+     git log --pretty=oneline
+     git log --graph --oneline
+     
+     10.4. how work git with big and small files?
+
+11.  Caret vs Tilde (^ vs ~), Rebase, Interactive Rebase 
+     
+     11.1 Caret vs Tilde (^ vs ~)
+     
+     ^ - the parent of HEAD (HEAD^ is equal to HEAD^1) or parnets(^2) 
+     ~ - HEAD~2 (back two steps in HEAD line)
+     HEAD~ and HEAD^ are equivalent.
+     The difference becomes apparent when you specify a number. HEAD~2 means “the first parent of the first parent,” or “the grandparent”
+      
+     
+     11.2 git rebase
+     11.3 git cherry-pick(page 160)
+
+12. practice for lesson 11
 
 
-4.	git clone
 
 
-6.	git add
-7.	git diff
-8.	git commit
-5.	git status
-9.	git remove file
-	git stash
-
-10.	git commit history
-11.	git reset
-12.	git checkout
-13.	git fetch
-14.	git remote add pb https://github.com/paulboone/ticgit(page 50)
-15.	git push
-16.	git tag
-17	(Git Aliases) git config --global alias.unstage 'reset HEAD --'
-18.	git branch
-19.	git merge (Conflicts - page 74)
-20.	git pull
-21.	git rebase
-22.	git cherry-pick(page 160)
-
------ GENERATE SSH -----
-page - 110
