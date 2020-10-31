@@ -4,65 +4,75 @@
 
 1.	Intro
 
-	1.1	xi enq sovorum alghoritmner
+	1.1 mi erku xosq daseri u istochnikneri masin 
 	
-	1.2	inch en alghoritmner@
+	1.2	xi enq sovorum alghoritmner
 	
-	1.3	algorithmeri effektivnost@
+	1.3	inch en alghoritmner@
 	
-	1.4	diagram
+	1.4	psevdakod, diagram, kod (berel orinak tvanshanneri gumarov)
 	
-	1.5 binary search
+	1.5	algorithmeri effektivnost@
 	
-	1.6 O(n)
+	1.6 binary search
+	
+	1.7 O(n)
 
-2.	Array vs Linked List
+2. 	First Agorithms & complexity
+	
+	2.1 Convert Decimal to Binary
+	
+	2.2 Sieve of Eratosthenes
+	
+	2.3 Algorithms complexity O(n)
+
+3.	Array vs Linked List
 
 	2.1	array
 	
 	2.2	linked list
 	
-3.	Sortavorman algorithmer(aranc rekursia)
+4.	Sortavorman algorithmer(aranc rekursia)
 
-4.	Rekskursia, stack, heap
+5.	Rekursia, stack, heap
 
-5.	Sortavorman algorithmer rekursiayov
+6.	Sortavorman algorithmer rekursiayov
 
-6.	Hash Tables
+7.	Hash Tables
 
-7.	Graps
+8.	Graps
 	
-	7.1	queue
+	8.1	queue
 	
-	7.2	breadth first search
+	8.2	breadth first search
 	
-	7.3	Dijkstra's algorithm
+	8.3	Dijkstra's algorithm
 	
-8. Greedy algorithms
+9. Greedy algorithms
 	
-9. Dynamic programming
+10. Dynamic programming
 
-10. k-nearest neighbors algorithm
+11. k-nearest neighbors algorithm
 	
-11.	Advenced algoritms
+12.	Advenced algoritms
 	
-	11.1 B-three
+	12.1 B-three
 	
-	11.2 Fourier transform
+	12.2 Fourier transform
 	
-	11.3 Parallel algorithm
+	12.3 Parallel algorithm
 	
-	11.4 Bloom Filters
+	12.4 Bloom Filters
 	
-	11.5 Hyperloglog
+	12.5 Hyperloglog
 	
-	11.6 SHA(secure hash) algorithm
+	12.6 SHA(secure hash) algorithm
 	
-	11.7 Locality-sensitive hashing
+	12.7 Locality-sensitive hashing
 	
-	11.8 Diffie–Hellman
+	12.8 Diffie–Hellman
 	
-	11.9 Linear programming
+	12.9 Linear programming
 	
 	
 	
