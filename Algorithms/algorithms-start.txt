@@ -32,7 +32,17 @@
 	
 	2.2	linked list
 	
-4.	Sortavorman algorithmer(aranc rekursia)
+4.	4.1 Numeral Systems
+	
+	4.2 Big O
+	
+	4.3 Bubble Sort
+
+5.	5.1. Stack
+
+	5.2  Recursion
+	
+	5.3  Selection Sort
 
 5.	Rekursia, stack, heap
 
