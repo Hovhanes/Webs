@@ -44,45 +44,45 @@
 	
 	5.3  Selection Sort
 
-5.	Rekursia, stack, heap
+6.	Rekursia, stack, heap
 
-6.	Sortavorman algorithmer rekursiayov
+7.	Sortavorman algorithmer rekursiayov
 
-7.	Hash Tables
+8.	Hash Tables
 
-8.	Graps
+9.	Graps
 	
-	8.1	queue
+	9.1	queue
 	
-	8.2	breadth first search
+	9.2	breadth first search
 	
-	8.3	Dijkstra's algorithm
+	9.3	Dijkstra's algorithm
 	
-9. Greedy algorithms
+10. Greedy algorithms
 	
-10. Dynamic programming
+11. Dynamic programming
 
-11. k-nearest neighbors algorithm
+12. k-nearest neighbors algorithm
 	
-12.	Advenced algoritms
+13.	Advenced algoritms
 	
-	12.1 B-three
+	13.1 B-three
 	
-	12.2 Fourier transform
+	13.2 Fourier transform
 	
-	12.3 Parallel algorithm
+	13.3 Parallel algorithm
 	
-	12.4 Bloom Filters
+	13.4 Bloom Filters
 	
-	12.5 Hyperloglog
+	13.5 Hyperloglog
 	
-	12.6 SHA(secure hash) algorithm
+	13.6 SHA(secure hash) algorithm
 	
-	12.7 Locality-sensitive hashing
+	13.7 Locality-sensitive hashing
 	
-	12.8 Diffie–Hellman
+	13.8 Diffie–Hellman
 	
-	12.9 Linear programming
+	13.9 Linear programming
 	
 	
 	
